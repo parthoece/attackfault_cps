@@ -1,0 +1,9 @@
+2024-12-19 13:25:36 startup archives unpack
+2024-12-19 13:25:36 install nano:amd64 <none> 4.8-1ubuntu1.1
+2024-12-19 13:25:36 status half-installed nano:amd64 4.8-1ubuntu1.1
+2024-12-19 13:25:36 status unpacked nano:amd64 4.8-1ubuntu1.1
+2024-12-19 13:25:36 startup packages configure
+2024-12-19 13:25:36 configure nano:amd64 4.8-1ubuntu1.1 <none>
+2024-12-19 13:25:36 status unpacked nano:amd64 4.8-1ubuntu1.1
+2024-12-19 13:25:36 status half-configured nano:amd64 4.8-1ubuntu1.1
+2024-12-19 13:25:36 status installed nano:amd64 4.8-1ubuntu1.1

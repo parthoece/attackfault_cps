@@ -1,0 +1,73 @@
+Dec 19 22:54:14 smasher-VirtualBox avahi-daemon[543]: Joining mDNS multicast group on interface vethfb6683b.IPv6 with address fe80::8c99:e8ff:fe0d:7ae.
+Dec 19 22:54:14 smasher-VirtualBox avahi-daemon[543]: New relevant interface vethfb6683b.IPv6 for mDNS.
+Dec 19 22:54:14 smasher-VirtualBox avahi-daemon[543]: Registering new address record for fe80::8c99:e8ff:fe0d:7ae on vethfb6683b.*.
+Dec 19 22:54:14 smasher-VirtualBox avahi-daemon[543]: Joining mDNS multicast group on interface vethe12c7a7.IPv6 with address fe80::e05a:92ff:fe0a:e641.
+Dec 19 22:54:14 smasher-VirtualBox avahi-daemon[543]: New relevant interface vethe12c7a7.IPv6 for mDNS.
+Dec 19 22:54:14 smasher-VirtualBox avahi-daemon[543]: Registering new address record for fe80::e05a:92ff:fe0a:e641 on vethe12c7a7.*.
+Dec 19 22:54:14 smasher-VirtualBox avahi-daemon[543]: Joining mDNS multicast group on interface veth43628a0.IPv6 with address fe80::c865:54ff:fe77:3154.
+Dec 19 22:54:14 smasher-VirtualBox avahi-daemon[543]: New relevant interface veth43628a0.IPv6 for mDNS.
+Dec 19 22:54:14 smasher-VirtualBox avahi-daemon[543]: Registering new address record for fe80::c865:54ff:fe77:3154 on veth43628a0.*.
+Dec 19 22:54:14 smasher-VirtualBox kernel: [450507.999562] device br_icsnet entered promiscuous mode
+Dec 19 22:54:19 smasher-VirtualBox systemd[1]: NetworkManager-dispatcher.service: Succeeded.
+Dec 19 22:54:58 smasher-VirtualBox dbus-daemon[2514]: [session uid=1000 pid=2514] Activating service name='org.gnome.gedit' requested by ':1.84' (uid=1000 pid=3659 comm="/usr/bin/nautilus --gapplication-service " label="unconfined")
+Dec 19 22:54:58 smasher-VirtualBox dbus-daemon[2514]: [session uid=1000 pid=2514] Successfully activated service 'org.gnome.gedit'
+Dec 19 22:55:44 smasher-VirtualBox dbus-daemon[2514]: [session uid=1000 pid=2514] Activating service name='org.gnome.gedit' requested by ':1.84' (uid=1000 pid=3659 comm="/usr/bin/nautilus --gapplication-service " label="unconfined")
+Dec 19 22:55:44 smasher-VirtualBox dbus-daemon[2514]: [session uid=1000 pid=2514] Successfully activated service 'org.gnome.gedit'
+Dec 19 22:56:07 smasher-VirtualBox dbus-daemon[2514]: [session uid=1000 pid=2514] Activating service name='org.gnome.gedit' requested by ':1.84' (uid=1000 pid=3659 comm="/usr/bin/nautilus --gapplication-service " label="unconfined")
+Dec 19 22:56:07 smasher-VirtualBox dbus-daemon[2514]: [session uid=1000 pid=2514] Successfully activated service 'org.gnome.gedit'
+Dec 19 22:56:19 smasher-VirtualBox dbus-daemon[2514]: [session uid=1000 pid=2514] Activating service name='org.gnome.gedit' requested by ':1.84' (uid=1000 pid=3659 comm="/usr/bin/nautilus --gapplication-service " label="unconfined")
+Dec 19 22:56:19 smasher-VirtualBox dbus-daemon[2514]: [session uid=1000 pid=2514] Successfully activated service 'org.gnome.gedit'
+Dec 19 22:56:20 smasher-VirtualBox gedit[768384]: Loading metadata failed: The specified location is not mounted
+Dec 19 22:56:32 smasher-VirtualBox dbus-daemon[2514]: [session uid=1000 pid=2514] Activating service name='org.gnome.gedit' requested by ':1.84' (uid=1000 pid=3659 comm="/usr/bin/nautilus --gapplication-service " label="unconfined")
+Dec 19 22:56:32 smasher-VirtualBox dbus-daemon[2514]: [session uid=1000 pid=2514] Successfully activated service 'org.gnome.gedit'
+Dec 19 22:56:33 smasher-VirtualBox gedit[768455]: Loading metadata failed: The specified location is not mounted
+Dec 19 22:56:46 smasher-VirtualBox dbus-daemon[2514]: [session uid=1000 pid=2514] Activating service name='org.gnome.gedit' requested by ':1.84' (uid=1000 pid=3659 comm="/usr/bin/nautilus --gapplication-service " label="unconfined")
+Dec 19 22:56:46 smasher-VirtualBox dbus-daemon[2514]: [session uid=1000 pid=2514] Successfully activated service 'org.gnome.gedit'
+Dec 19 22:56:46 smasher-VirtualBox gedit[768525]: Loading metadata failed: The specified location is not mounted
+Dec 19 22:57:08 smasher-VirtualBox dbus-daemon[2514]: [session uid=1000 pid=2514] Activating service name='org.gnome.gedit' requested by ':1.84' (uid=1000 pid=3659 comm="/usr/bin/nautilus --gapplication-service " label="unconfined")
+Dec 19 22:57:09 smasher-VirtualBox dbus-daemon[2514]: [session uid=1000 pid=2514] Successfully activated service 'org.gnome.gedit'
+Dec 19 22:57:09 smasher-VirtualBox gedit[768656]: Loading metadata failed: The specified location is not mounted
+Dec 19 22:57:20 smasher-VirtualBox dbus-daemon[2514]: [session uid=1000 pid=2514] Activating service name='org.gnome.gedit' requested by ':1.84' (uid=1000 pid=3659 comm="/usr/bin/nautilus --gapplication-service " label="unconfined")
+Dec 19 22:57:20 smasher-VirtualBox dbus-daemon[2514]: [session uid=1000 pid=2514] Successfully activated service 'org.gnome.gedit'
+Dec 19 22:57:21 smasher-VirtualBox gedit[768723]: Loading metadata failed: The specified location is not mounted
+Dec 19 22:57:53 smasher-VirtualBox dbus-daemon[2514]: [session uid=1000 pid=2514] Activating service name='org.gnome.gedit' requested by ':1.84' (uid=1000 pid=3659 comm="/usr/bin/nautilus --gapplication-service " label="unconfined")
+Dec 19 22:57:53 smasher-VirtualBox dbus-daemon[2514]: [session uid=1000 pid=2514] Successfully activated service 'org.gnome.gedit'
+Dec 19 22:57:54 smasher-VirtualBox gedit[768877]: Loading metadata failed: The specified location is not mounted
+Dec 19 22:58:28 smasher-VirtualBox dbus-daemon[2514]: [session uid=1000 pid=2514] Activating service name='org.gnome.gedit' requested by ':1.84' (uid=1000 pid=3659 comm="/usr/bin/nautilus --gapplication-service " label="unconfined")
+Dec 19 22:58:28 smasher-VirtualBox dbus-daemon[2514]: [session uid=1000 pid=2514] Successfully activated service 'org.gnome.gedit'
+Dec 19 22:58:28 smasher-VirtualBox gedit[769041]: Loading metadata failed: The specified location is not mounted
+Dec 19 23:09:47 smasher-VirtualBox gnome-shell[2688]: cr_parser_new_from_buf: assertion 'a_buf && a_len' failed
+Dec 19 23:09:47 smasher-VirtualBox gnome-shell[2688]: cr_declaration_parse_list_from_buf: assertion 'parser' failed
+Dec 19 23:09:47 smasher-VirtualBox gnome-shell[2688]: cr_parser_new_from_buf: assertion 'a_buf && a_len' failed
+Dec 19 23:09:47 smasher-VirtualBox gnome-shell[2688]: cr_declaration_parse_list_from_buf: assertion 'parser' failed
+Dec 19 23:09:47 smasher-VirtualBox gnome-shell[2688]: g_dbus_connection_emit_signal: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+Dec 19 23:09:47 smasher-VirtualBox gnome-shell[2688]: cr_parser_new_from_buf: assertion 'a_buf && a_len' failed
+Dec 19 23:09:47 smasher-VirtualBox gnome-shell[2688]: cr_declaration_parse_list_from_buf: assertion 'parser' failed
+Dec 19 23:17:01 smasher-VirtualBox CRON[773819]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Dec 19 23:30:01 smasher-VirtualBox CRON[777002]: (root) CMD ([ -x /etc/init.d/anacron ] && if [ ! -d /run/systemd/system ]; then /usr/sbin/invoke-rc.d anacron start >/dev/null; fi)
+Dec 19 23:30:46 smasher-VirtualBox systemd[1]: Started Run anacron jobs.
+Dec 19 23:30:46 smasher-VirtualBox systemd[1]: anacron.service: Succeeded.
+Dec 19 23:30:46 smasher-VirtualBox anacron[777185]: Anacron 2.3 started on 2024-12-19
+Dec 19 23:30:46 smasher-VirtualBox anacron[777185]: Normal exit (0 jobs run)
+Dec 20 00:00:03 smasher-VirtualBox dbus-daemon[546]: [system] Activating via systemd: service name='net.reactivated.Fprint' unit='fprintd.service' requested by ':1.81' (uid=1000 pid=2688 comm="/usr/bin/gnome-shell " label="unconfined")
+Dec 20 00:00:03 smasher-VirtualBox systemd[1]: Starting Fingerprint Authentication Daemon...
+Dec 20 00:00:03 smasher-VirtualBox systemd[1]: Starting Rotate log files...
+Dec 20 00:00:03 smasher-VirtualBox systemd[1]: Starting Daily man-db regeneration...
+Dec 20 00:00:03 smasher-VirtualBox systemd[1]: Stopping Make remote CUPS printers available locally...
+Dec 20 00:00:03 smasher-VirtualBox systemd[1]: cups-browsed.service: Succeeded.
+Dec 20 00:00:03 smasher-VirtualBox systemd[1]: Stopped Make remote CUPS printers available locally.
+Dec 20 00:00:03 smasher-VirtualBox systemd[1]: Stopping CUPS Scheduler...
+Dec 20 00:00:03 smasher-VirtualBox dbus-daemon[546]: [system] Successfully activated service 'net.reactivated.Fprint'
+Dec 20 00:00:03 smasher-VirtualBox systemd[1]: Started Fingerprint Authentication Daemon.
+Dec 20 00:00:03 smasher-VirtualBox systemd[1]: cups.service: Succeeded.
+Dec 20 00:00:03 smasher-VirtualBox systemd[1]: Stopped CUPS Scheduler.
+Dec 20 00:00:03 smasher-VirtualBox systemd[1]: cups.path: Succeeded.
+Dec 20 00:00:03 smasher-VirtualBox systemd[1]: Stopped CUPS Scheduler.
+Dec 20 00:00:03 smasher-VirtualBox systemd[1]: Stopping CUPS Scheduler.
+Dec 20 00:00:03 smasher-VirtualBox systemd[1]: Started CUPS Scheduler.
+Dec 20 00:00:03 smasher-VirtualBox systemd[1]: cups.socket: Succeeded.
+Dec 20 00:00:03 smasher-VirtualBox systemd[1]: Closed CUPS Scheduler.
+Dec 20 00:00:03 smasher-VirtualBox systemd[1]: Stopping CUPS Scheduler.
+Dec 20 00:00:03 smasher-VirtualBox systemd[1]: Listening on CUPS Scheduler.
+Dec 20 00:00:03 smasher-VirtualBox systemd[1]: Started CUPS Scheduler.
+Dec 20 00:00:03 smasher-VirtualBox systemd[1]: Started Make remote CUPS printers available locally.

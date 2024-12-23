@@ -1,0 +1,581 @@
+Dec 14 15:19:39 77995d183f39 rsyslogd: environment variable TZ is not set, auto correcting this to TZ=/etc/localtime [v8.2001.0 try https://www.rsyslog.com/e/2442 ]
+Dec 14 15:19:39 77995d183f39 rsyslogd: rsyslogd's groupid changed to 102
+Dec 14 15:19:39 77995d183f39 rsyslogd: rsyslogd's userid changed to 101
+Dec 14 15:19:39 77995d183f39 rsyslogd: [origin software="rsyslogd" swVersion="8.2001.0" x-pid="1" x-info="https://www.rsyslog.com"] start
+Dec 14 15:19:42 77995d183f39 kernel: [20035.610514] device br_icsnet entered promiscuous mode
+Dec 14 16:00:02 77995d183f39 kernel: [22455.552491] audit: type=1400 audit(1734192002.012:54): apparmor="DENIED" operation="capable" profile="/usr/sbin/cups-browsed" pid=109741 comm="cups-browsed" capability=23  capname="sys_nice"
+Dec 19 07:34:33 16a8450488e1 rsyslogd: environment variable TZ is not set, auto correcting this to TZ=/etc/localtime [v8.2001.0 try https://www.rsyslog.com/e/2442 ]
+Dec 19 07:34:33 16a8450488e1 rsyslogd: rsyslogd's groupid changed to 102
+Dec 19 07:34:33 16a8450488e1 rsyslogd: rsyslogd's userid changed to 101
+Dec 19 07:34:33 16a8450488e1 rsyslogd: [origin software="rsyslogd" swVersion="8.2001.0" x-pid="1" x-info="https://www.rsyslog.com"] start
+Dec 19 07:34:35 16a8450488e1 kernel: [424128.762199] device br_icsnet entered promiscuous mode
+Dec 19 07:49:41 16a8450488e1 kernel: [425035.470987] 07:49:41.964790 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 07:49:41 16a8450488e1 kernel: [425035.471459] 07:49:41.965576 dnd       No guest source window
+Dec 19 07:49:41 16a8450488e1 kernel: [425035.502621] 07:49:41.996854 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 07:49:41 16a8450488e1 kernel: [425035.502867] 07:49:41.997182 dnd       No guest source window
+Dec 19 07:49:42 16a8450488e1 kernel: [425035.520883] 07:49:42.015187 dnd       No guest source window
+Dec 19 07:49:42 16a8450488e1 kernel: [425035.534517] 07:49:42.028755 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 07:49:42 16a8450488e1 kernel: [425035.558604] 07:49:42.052847 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 07:49:42 16a8450488e1 kernel: [425035.558837] 07:49:42.053156 dnd       No guest source window
+Dec 19 07:49:42 16a8450488e1 kernel: [425035.571775] 07:49:42.066069 dnd       No guest source window
+Dec 19 07:49:42 16a8450488e1 kernel: [425035.598218] 07:49:42.092478 dnd       No guest source window
+Dec 19 07:49:42 16a8450488e1 kernel: [425035.598979] 07:49:42.093238 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 07:49:42 16a8450488e1 kernel: [425035.599201] 07:49:42.093527 dnd       No guest source window
+Dec 19 07:49:42 16a8450488e1 kernel: [425035.614384] 07:49:42.108634 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 07:49:42 16a8450488e1 kernel: [425035.630459] 07:49:42.124703 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 07:49:42 16a8450488e1 kernel: [425035.630715] 07:49:42.125039 dnd       No guest source window
+Dec 19 07:49:42 16a8450488e1 kernel: [425035.654692] 07:49:42.148924 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 07:49:42 16a8450488e1 kernel: [425035.654987] 07:49:42.149302 dnd       No guest source window
+Dec 19 07:49:42 16a8450488e1 kernel: [425035.670417] 07:49:42.164666 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 07:49:42 16a8450488e1 kernel: [425035.670639] 07:49:42.164966 dnd       No guest source window
+Dec 19 07:49:42 16a8450488e1 kernel: [425035.710568] 07:49:42.204810 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 07:49:42 16a8450488e1 kernel: [425035.734550] 07:49:42.228800 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 07:49:42 16a8450488e1 kernel: [425035.742788] 07:49:42.237016 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 07:49:42 16a8450488e1 kernel: [425035.758505] 07:49:42.252755 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 07:49:42 16a8450488e1 kernel: [425035.766881] 07:49:42.261122 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 07:49:42 16a8450488e1 kernel: [425035.768021] 07:49:42.262318 dnd       No guest source window
+Dec 19 07:49:42 16a8450488e1 kernel: [425035.782564] 07:49:42.276806 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 07:49:42 16a8450488e1 kernel: [425035.782880] 07:49:42.277209 dnd       No guest source window
+Dec 19 07:49:42 16a8450488e1 kernel: [425035.806875] 07:49:42.301102 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 07:49:42 16a8450488e1 kernel: [425035.807477] 07:49:42.301763 dnd       No guest source window
+Dec 19 07:49:42 16a8450488e1 kernel: [425035.831864] 07:49:42.326106 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 07:49:42 16a8450488e1 kernel: [425035.835055] 07:49:42.329295 dnd       No guest source window
+Dec 19 07:49:42 16a8450488e1 kernel: [425035.854442] 07:49:42.348705 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 07:49:42 16a8450488e1 kernel: [425035.854676] 07:49:42.349011 dnd       No guest source window
+Dec 19 07:49:42 16a8450488e1 kernel: [425035.870516] 07:49:42.364759 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 07:49:42 16a8450488e1 kernel: [425035.870801] 07:49:42.365136 dnd       No guest source window
+Dec 19 07:49:42 16a8450488e1 kernel: [425035.886534] 07:49:42.380793 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 07:49:42 16a8450488e1 kernel: [425035.886807] 07:49:42.381137 dnd       No guest source window
+Dec 19 07:49:42 16a8450488e1 kernel: [425035.918498] 07:49:42.412752 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 07:49:42 16a8450488e1 kernel: [425035.918766] 07:49:42.413068 dnd       No guest source window
+Dec 19 07:49:42 16a8450488e1 kernel: [425035.934720] 07:49:42.428969 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 07:49:42 16a8450488e1 kernel: [425035.936946] 07:49:42.431236 dnd       No guest source window
+Dec 19 07:49:42 16a8450488e1 kernel: [425035.959003] 07:49:42.453236 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 07:49:42 16a8450488e1 kernel: [425035.966670] 07:49:42.460931 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 07:49:42 16a8450488e1 kernel: [425035.966907] 07:49:42.461236 dnd       No guest source window
+Dec 19 07:49:42 16a8450488e1 kernel: [425035.999155] 07:49:42.493391 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 07:49:42 16a8450488e1 kernel: [425036.010258] 07:49:42.504521 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 07:49:42 16a8450488e1 kernel: [425036.010868] 07:49:42.505197 dnd       No guest source window
+Dec 19 07:49:42 16a8450488e1 kernel: [425036.022374] 07:49:42.516635 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 07:49:42 16a8450488e1 kernel: [425036.022659] 07:49:42.516967 dnd       No guest source window
+Dec 19 07:49:42 16a8450488e1 kernel: [425036.063258] 07:49:42.557511 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 07:49:42 16a8450488e1 kernel: [425036.065938] 07:49:42.560230 dnd       No guest source window
+Dec 19 07:49:42 16a8450488e1 kernel: [425036.127391] 07:49:42.621648 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 07:49:42 16a8450488e1 kernel: [425036.182601] 07:49:42.676848 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 07:49:42 16a8450488e1 kernel: [425036.182974] 07:49:42.677315 dnd       No guest source window
+Dec 19 07:49:42 16a8450488e1 kernel: [425036.209460] 07:49:42.703743 dnd       No guest source window
+Dec 19 07:49:42 16a8450488e1 kernel: [425036.220992] 07:49:42.715324 dnd       No guest source window
+Dec 19 07:49:42 16a8450488e1 kernel: [425036.383649] 07:49:42.877956 dnd       No guest source window
+Dec 19 09:20:51 16a8450488e1 kernel: [430505.162117] 09:20:51.646814 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 09:20:51 16a8450488e1 kernel: [430505.178291] 09:20:51.663475 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 09:20:51 16a8450488e1 kernel: [430505.178546] 09:20:51.663800 dnd       No guest source window
+Dec 19 09:20:51 16a8450488e1 kernel: [430505.201166] 09:20:51.686348 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 09:20:51 16a8450488e1 kernel: [430505.208486] 09:20:51.693668 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 09:20:51 16a8450488e1 kernel: [430505.208709] 09:20:51.693965 dnd       No guest source window
+Dec 19 09:20:51 16a8450488e1 kernel: [430505.217716] 09:20:51.702953 dnd       No guest source window
+Dec 19 09:20:51 16a8450488e1 kernel: [430505.242107] 09:20:51.727318 dnd       No guest source window
+Dec 19 09:20:51 16a8450488e1 kernel: [430505.256460] 09:20:51.741646 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 09:20:51 16a8450488e1 kernel: [430505.256689] 09:20:51.741941 dnd       No guest source window
+Dec 19 09:20:51 16a8450488e1 kernel: [430505.272534] 09:20:51.757709 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 09:20:51 16a8450488e1 kernel: [430505.272759] 09:20:51.758018 dnd       No guest source window
+Dec 19 09:20:51 16a8450488e1 kernel: [430505.304488] 09:20:51.789676 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 09:20:51 16a8450488e1 kernel: [430505.304719] 09:20:51.789975 dnd       No guest source window
+Dec 19 09:20:51 16a8450488e1 kernel: [430505.344520] 09:20:51.829716 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 09:20:51 16a8450488e1 kernel: [430505.344740] 09:20:51.830002 dnd       No guest source window
+Dec 19 09:20:51 16a8450488e1 kernel: [430505.360576] 09:20:51.845763 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 09:20:51 16a8450488e1 kernel: [430505.360816] 09:20:51.846071 dnd       No guest source window
+Dec 19 09:20:51 16a8450488e1 kernel: [430505.376550] 09:20:51.861737 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 09:20:51 16a8450488e1 kernel: [430505.377062] 09:20:51.862310 dnd       No guest source window
+Dec 19 09:20:51 16a8450488e1 kernel: [430505.392437] 09:20:51.877628 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 09:20:51 16a8450488e1 kernel: [430505.392658] 09:20:51.877922 dnd       No guest source window
+Dec 19 09:20:51 16a8450488e1 kernel: [430505.408486] 09:20:51.893674 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 09:20:51 16a8450488e1 kernel: [430505.408706] 09:20:51.893972 dnd       No guest source window
+Dec 19 09:20:51 16a8450488e1 kernel: [430505.424604] 09:20:51.909802 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 09:20:51 16a8450488e1 kernel: [430505.425128] 09:20:51.910384 dnd       No guest source window
+Dec 19 09:20:51 16a8450488e1 kernel: [430505.440445] 09:20:51.925638 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 09:20:51 16a8450488e1 kernel: [430505.440666] 09:20:51.925932 dnd       No guest source window
+Dec 19 09:20:51 16a8450488e1 kernel: [430505.464579] 09:20:51.949771 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 09:20:51 16a8450488e1 kernel: [430505.464863] 09:20:51.950089 dnd       No guest source window
+Dec 19 09:20:51 16a8450488e1 kernel: [430505.496778] 09:20:51.981940 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 09:20:51 16a8450488e1 kernel: [430505.497078] 09:20:51.982324 dnd       No guest source window
+Dec 19 09:20:51 16a8450488e1 kernel: [430505.513025] 09:20:51.998212 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 09:20:51 16a8450488e1 kernel: [430505.513248] 09:20:51.998519 dnd       No guest source window
+Dec 19 09:20:52 16a8450488e1 kernel: [430505.544763] 09:20:52.029958 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 09:20:52 16a8450488e1 kernel: [430505.552817] 09:20:52.038018 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 09:20:52 16a8450488e1 kernel: [430505.553108] 09:20:52.038374 dnd       No guest source window
+Dec 19 09:20:52 16a8450488e1 kernel: [430505.568427] 09:20:52.053629 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 09:20:52 16a8450488e1 kernel: [430505.568653] 09:20:52.053924 dnd       No guest source window
+Dec 19 09:20:52 16a8450488e1 kernel: [430505.578789] 09:20:52.064041 dnd       No guest source window
+Dec 19 09:20:52 16a8450488e1 kernel: [430505.592575] 09:20:52.077767 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 09:20:52 16a8450488e1 kernel: [430505.592818] 09:20:52.078090 dnd       No guest source window
+Dec 19 09:20:52 16a8450488e1 kernel: [430505.608777] 09:20:52.093975 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 09:20:52 16a8450488e1 kernel: [430505.609005] 09:20:52.094273 dnd       No guest source window
+Dec 19 09:20:52 16a8450488e1 kernel: [430505.632522] 09:20:52.117724 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 09:20:52 16a8450488e1 kernel: [430505.632747] 09:20:52.118021 dnd       No guest source window
+Dec 19 09:20:52 16a8450488e1 kernel: [430505.648676] 09:20:52.133872 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 09:20:52 16a8450488e1 kernel: [430505.648905] 09:20:52.134181 dnd       No guest source window
+Dec 19 09:20:52 16a8450488e1 kernel: [430505.664421] 09:20:52.149621 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 09:20:52 16a8450488e1 kernel: [430505.664662] 09:20:52.149932 dnd       No guest source window
+Dec 19 09:20:52 16a8450488e1 kernel: [430505.680477] 09:20:52.165668 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 09:20:52 16a8450488e1 kernel: [430505.680743] 09:20:52.166018 dnd       No guest source window
+Dec 19 09:20:52 16a8450488e1 kernel: [430505.688466] 09:20:52.173669 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 09:20:52 16a8450488e1 kernel: [430505.688719] 09:20:52.173989 dnd       No guest source window
+Dec 19 09:20:52 16a8450488e1 kernel: [430505.704318] 09:20:52.189522 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 09:20:52 16a8450488e1 kernel: [430505.704551] 09:20:52.189829 dnd       No guest source window
+Dec 19 09:20:52 16a8450488e1 kernel: [430505.728738] 09:20:52.213930 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 09:20:52 16a8450488e1 kernel: [430505.736692] 09:20:52.221897 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 09:20:52 16a8450488e1 kernel: [430505.736917] 09:20:52.222196 dnd       No guest source window
+Dec 19 09:20:52 16a8450488e1 kernel: [430505.744832] 09:20:52.230036 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 09:20:52 16a8450488e1 kernel: [430505.745064] 09:20:52.230342 dnd       No guest source window
+Dec 19 09:20:52 16a8450488e1 kernel: [430505.760505] 09:20:52.245715 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 09:20:52 16a8450488e1 kernel: [430505.760958] 09:20:52.246216 dnd       No guest source window
+Dec 19 09:20:52 16a8450488e1 kernel: [430505.777390] 09:20:52.262583 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 09:20:52 16a8450488e1 kernel: [430505.784450] 09:20:52.269656 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 09:20:52 16a8450488e1 kernel: [430505.784689] 09:20:52.269954 dnd       No guest source window
+Dec 19 09:20:52 16a8450488e1 kernel: [430505.800722] 09:20:52.285908 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 09:20:52 16a8450488e1 kernel: [430505.800996] 09:20:52.286277 dnd       No guest source window
+Dec 19 09:20:52 16a8450488e1 kernel: [430505.808436] 09:20:52.293644 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 09:20:52 16a8450488e1 kernel: [430505.808691] 09:20:52.293972 dnd       No guest source window
+Dec 19 09:20:52 16a8450488e1 kernel: [430505.832828] 09:20:52.318003 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 09:20:52 16a8450488e1 kernel: [430505.833405] 09:20:52.318660 dnd       No guest source window
+Dec 19 09:20:52 16a8450488e1 kernel: [430505.848827] 09:20:52.334034 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 09:20:52 16a8450488e1 kernel: [430505.857768] 09:20:52.342970 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 09:20:52 16a8450488e1 kernel: [430505.858111] 09:20:52.343392 dnd       No guest source window
+Dec 19 09:20:52 16a8450488e1 kernel: [430505.873862] 09:20:52.359075 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 09:20:52 16a8450488e1 kernel: [430505.874243] 09:20:52.359370 dnd       No guest source window
+Dec 19 09:20:52 16a8450488e1 kernel: [430505.888375] 09:20:52.373590 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 09:20:52 16a8450488e1 kernel: [430505.888599] 09:20:52.373884 dnd       No guest source window
+Dec 19 09:20:52 16a8450488e1 kernel: [430505.904421] 09:20:52.389632 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 09:20:52 16a8450488e1 kernel: [430505.904644] 09:20:52.389923 dnd       No guest source window
+Dec 19 09:20:52 16a8450488e1 kernel: [430505.928451] 09:20:52.413662 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 09:20:52 16a8450488e1 kernel: [430505.928676] 09:20:52.413963 dnd       No guest source window
+Dec 19 09:20:52 16a8450488e1 kernel: [430505.944340] 09:20:52.429556 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 09:20:52 16a8450488e1 kernel: [430505.944590] 09:20:52.429876 dnd       No guest source window
+Dec 19 09:20:52 16a8450488e1 kernel: [430505.960481] 09:20:52.445690 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 09:20:52 16a8450488e1 kernel: [430505.960710] 09:20:52.445997 dnd       No guest source window
+Dec 19 09:20:52 16a8450488e1 kernel: [430505.976413] 09:20:52.461633 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 09:20:52 16a8450488e1 kernel: [430505.976655] 09:20:52.461944 dnd       No guest source window
+Dec 19 09:20:52 16a8450488e1 kernel: [430505.992419] 09:20:52.477630 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 09:20:52 16a8450488e1 kernel: [430505.992641] 09:20:52.477930 dnd       No guest source window
+Dec 19 09:20:52 16a8450488e1 kernel: [430506.008479] 09:20:52.493692 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 09:20:52 16a8450488e1 kernel: [430506.008701] 09:20:52.493992 dnd       No guest source window
+Dec 19 09:20:52 16a8450488e1 kernel: [430506.040586] 09:20:52.525805 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 09:20:52 16a8450488e1 kernel: [430506.040804] 09:20:52.526097 dnd       No guest source window
+Dec 19 09:20:52 16a8450488e1 kernel: [430506.065228] 09:20:52.550381 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 09:20:52 16a8450488e1 kernel: [430506.065523] 09:20:52.550787 dnd       No guest source window
+Dec 19 09:20:52 16a8450488e1 kernel: [430506.080646] 09:20:52.565808 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 09:20:52 16a8450488e1 kernel: [430506.080991] 09:20:52.566237 dnd       No guest source window
+Dec 19 09:20:52 16a8450488e1 kernel: [430506.120276] 09:20:52.605542 dnd       No guest source window
+Dec 19 09:20:52 16a8450488e1 kernel: [430506.169173] 09:20:52.654339 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 09:20:52 16a8450488e1 kernel: [430506.186308] 09:20:52.671409 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 09:20:52 16a8450488e1 kernel: [430506.186798] 09:20:52.672041 dnd       No guest source window
+Dec 19 09:20:52 16a8450488e1 kernel: [430506.201932] 09:20:52.687137 dnd       No guest source window
+Dec 19 09:20:52 16a8450488e1 kernel: [430506.240712] 09:20:52.725935 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 09:20:52 16a8450488e1 kernel: [430506.240925] 09:20:52.726222 dnd       No guest source window
+Dec 19 09:20:52 16a8450488e1 kernel: [430506.256311] 09:20:52.741546 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 09:20:52 16a8450488e1 kernel: [430506.256535] 09:20:52.741830 dnd       No guest source window
+Dec 19 09:20:52 16a8450488e1 kernel: [430506.285112] 09:20:52.767392 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 09:20:52 16a8450488e1 kernel: [430506.294195] 09:20:52.779419 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 09:20:52 16a8450488e1 kernel: [430506.294419] 09:20:52.779716 dnd       No guest source window
+Dec 19 09:20:52 16a8450488e1 kernel: [430506.296717] 09:20:52.781953 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 09:20:52 16a8450488e1 kernel: [430506.296946] 09:20:52.782247 dnd       No guest source window
+Dec 19 09:20:52 16a8450488e1 kernel: [430506.384844] 09:20:52.869950 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 09:20:52 16a8450488e1 kernel: [430506.385345] 09:20:52.870568 dnd       No guest source window
+Dec 19 09:20:52 16a8450488e1 kernel: [430506.401949] 09:20:52.887156 dnd       No guest source window
+Dec 19 09:20:52 16a8450488e1 kernel: [430506.441292] 09:20:52.926428 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 09:20:52 16a8450488e1 kernel: [430506.456761] 09:20:52.941941 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 09:20:52 16a8450488e1 kernel: [430506.457039] 09:20:52.942319 dnd       No guest source window
+Dec 19 09:20:52 16a8450488e1 kernel: [430506.482661] 09:20:52.967851 dnd       No guest source window
+Dec 19 09:20:52 16a8450488e1 kernel: [430506.506456] 09:20:52.991666 dnd       No guest source window
+Dec 19 09:20:53 16a8450488e1 kernel: [430506.521816] 09:20:53.007104 dnd       No guest source window
+Dec 19 09:20:53 16a8450488e1 kernel: [430506.578042] 09:20:53.063251 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 09:20:53 16a8450488e1 kernel: [430506.584469] 09:20:53.069714 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 09:20:53 16a8450488e1 kernel: [430506.584683] 09:20:53.069996 dnd       No guest source window
+Dec 19 09:20:53 16a8450488e1 kernel: [430506.600675] 09:20:53.085915 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 09:20:53 16a8450488e1 kernel: [430506.600910] 09:20:53.086225 dnd       No guest source window
+Dec 19 09:20:53 16a8450488e1 kernel: [430506.617208] 09:20:53.102401 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 09:20:53 16a8450488e1 kernel: [430506.624819] 09:20:53.110066 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 09:20:53 16a8450488e1 kernel: [430506.625028] 09:20:53.110344 dnd       No guest source window
+Dec 19 09:20:53 16a8450488e1 kernel: [430506.640494] 09:20:53.125733 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 09:20:53 16a8450488e1 kernel: [430506.640716] 09:20:53.126033 dnd       No guest source window
+Dec 19 09:20:53 16a8450488e1 kernel: [430506.648468] 09:20:53.133702 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 09:20:53 16a8450488e1 kernel: [430506.648731] 09:20:53.134046 dnd       No guest source window
+Dec 19 09:20:53 16a8450488e1 kernel: [430506.664494] 09:20:53.149744 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 09:20:53 16a8450488e1 kernel: [430506.664739] 09:20:53.150048 dnd       No guest source window
+Dec 19 09:20:53 16a8450488e1 kernel: [430506.680508] 09:20:53.165758 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 09:20:53 16a8450488e1 kernel: [430506.680723] 09:20:53.166036 dnd       No guest source window
+Dec 19 09:20:53 16a8450488e1 kernel: [430506.704452] 09:20:53.189692 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 09:20:53 16a8450488e1 kernel: [430506.704692] 09:20:53.190011 dnd       No guest source window
+Dec 19 09:20:53 16a8450488e1 kernel: [430506.744456] 09:20:53.229693 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 09:20:53 16a8450488e1 kernel: [430506.745000] 09:20:53.230315 dnd       No guest source window
+Dec 19 09:20:53 16a8450488e1 kernel: [430506.760388] 09:20:53.245644 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 09:20:53 16a8450488e1 kernel: [430506.760597] 09:20:53.245919 dnd       No guest source window
+Dec 19 09:20:53 16a8450488e1 kernel: [430506.776404] 09:20:53.261661 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 09:20:53 16a8450488e1 kernel: [430506.776630] 09:20:53.261946 dnd       No guest source window
+Dec 19 09:20:53 16a8450488e1 kernel: [430506.792802] 09:20:53.278053 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 09:20:53 16a8450488e1 kernel: [430506.793013] 09:20:53.278335 dnd       No guest source window
+Dec 19 09:20:53 16a8450488e1 kernel: [430506.808488] 09:20:53.293732 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 09:20:53 16a8450488e1 kernel: [430506.808697] 09:20:53.294021 dnd       No guest source window
+Dec 19 09:20:53 16a8450488e1 kernel: [430506.832648] 09:20:53.317903 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 09:20:53 16a8450488e1 kernel: [430506.832876] 09:20:53.318199 dnd       No guest source window
+Dec 19 09:20:53 16a8450488e1 kernel: [430506.856421] 09:20:53.341662 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 09:20:53 16a8450488e1 kernel: [430506.864864] 09:20:53.350104 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 09:20:53 16a8450488e1 kernel: [430506.882418] 09:20:53.367668 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 09:20:53 16a8450488e1 kernel: [430506.882900] 09:20:53.368219 dnd       No guest source window
+Dec 19 09:20:53 16a8450488e1 kernel: [430506.912534] 09:20:53.397792 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 09:20:53 16a8450488e1 kernel: [430506.912764] 09:20:53.398092 dnd       No guest source window
+Dec 19 09:20:53 16a8450488e1 kernel: [430506.960398] 09:20:53.445653 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 09:20:53 16a8450488e1 kernel: [430506.960624] 09:20:53.445954 dnd       No guest source window
+Dec 19 09:20:53 16a8450488e1 kernel: [430506.968422] 09:20:53.453680 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 09:20:53 16a8450488e1 kernel: [430506.968643] 09:20:53.453973 dnd       No guest source window
+Dec 19 09:20:53 16a8450488e1 kernel: [430506.984747] 09:20:53.470005 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 09:20:53 16a8450488e1 kernel: [430506.985081] 09:20:53.470411 dnd       No guest source window
+Dec 19 09:20:53 16a8450488e1 kernel: [430507.000573] 09:20:53.485838 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 09:20:53 16a8450488e1 kernel: [430507.000792] 09:20:53.486124 dnd       No guest source window
+Dec 19 09:20:53 16a8450488e1 kernel: [430507.024844] 09:20:53.510109 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 09:20:53 16a8450488e1 kernel: [430507.025091] 09:20:53.510398 dnd       No guest source window
+Dec 19 09:20:53 16a8450488e1 kernel: [430507.040441] 09:20:53.525708 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 09:20:53 16a8450488e1 kernel: [430507.040676] 09:20:53.526009 dnd       No guest source window
+Dec 19 09:20:53 16a8450488e1 kernel: [430507.056194] 09:20:53.541461 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 09:20:53 16a8450488e1 kernel: [430507.056417] 09:20:53.541752 dnd       No guest source window
+Dec 19 09:20:53 16a8450488e1 kernel: [430507.064470] 09:20:53.549732 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 09:20:53 16a8450488e1 kernel: [430507.064723] 09:20:53.550047 dnd       No guest source window
+Dec 19 09:20:53 16a8450488e1 kernel: [430507.080448] 09:20:53.565711 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 09:20:53 16a8450488e1 kernel: [430507.080668] 09:20:53.566003 dnd       No guest source window
+Dec 19 09:20:53 16a8450488e1 kernel: [430507.088389] 09:20:53.573618 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 09:20:53 16a8450488e1 kernel: [430507.088616] 09:20:53.573951 dnd       No guest source window
+Dec 19 09:20:54 16a8450488e1 kernel: [430508.010833] 09:20:54.495911 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 09:20:54 16a8450488e1 kernel: [430508.011338] 09:20:54.496601 dnd       No guest source window
+Dec 19 09:20:54 16a8450488e1 kernel: [430508.337798] 09:20:54.823173 dnd       No guest source window
+Dec 19 09:20:54 16a8450488e1 kernel: [430508.392587] 09:20:54.877901 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 09:20:54 16a8450488e1 kernel: [430508.392795] 09:20:54.878186 dnd       No guest source window
+Dec 19 09:20:54 16a8450488e1 kernel: [430508.408474] 09:20:54.893797 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 09:20:54 16a8450488e1 kernel: [430508.408719] 09:20:54.894095 dnd       No guest source window
+Dec 19 09:21:02 16a8450488e1 kernel: [430514.425977] 09:21:00.911497 DrmResizeThread VBoxDRMClient: push screen layout data of 1 display(s) to DRM stack, fPartialLayout=false, rc=V
+Dec 19 13:17:05 16a8450488e1 kernel: [444679.226094] 13:17:05.726882 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 13:17:05 16a8450488e1 kernel: [444679.226433] 13:17:05.727620 dnd       No guest source window
+Dec 19 13:17:05 16a8450488e1 kernel: [444679.241645] 13:17:05.742864 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 13:17:05 16a8450488e1 kernel: [444679.241858] 13:17:05.743153 dnd       No guest source window
+Dec 19 13:17:05 16a8450488e1 kernel: [444679.250095] 13:17:05.751381 dnd       No guest source window
+Dec 19 13:17:05 16a8450488e1 kernel: [444679.257679] 13:17:05.758898 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 13:17:05 16a8450488e1 kernel: [444679.257896] 13:17:05.759183 dnd       No guest source window
+Dec 19 13:17:05 16a8450488e1 kernel: [444679.273776] 13:17:05.774981 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 13:17:05 16a8450488e1 kernel: [444679.274005] 13:17:05.775285 dnd       No guest source window
+Dec 19 13:17:05 16a8450488e1 kernel: [444679.282147] 13:17:05.783420 dnd       No guest source window
+Dec 19 13:17:05 16a8450488e1 kernel: [444679.289650] 13:17:05.790853 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 13:17:05 16a8450488e1 kernel: [444679.289883] 13:17:05.791157 dnd       No guest source window
+Dec 19 13:17:06 16a8450488e1 kernel: [444679.978031] 13:17:06.478943 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 13:17:06 16a8450488e1 kernel: [444679.978259] 13:17:06.479260 dnd       No guest source window
+Dec 19 13:17:07 16a8450488e1 kernel: [444680.779145] 13:17:07.279724 dnd       No guest source window
+Dec 19 13:17:07 16a8450488e1 kernel: [444680.825776] 13:17:07.326356 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 13:17:07 16a8450488e1 kernel: [444680.825999] 13:17:07.326649 dnd       No guest source window
+Dec 19 13:17:07 16a8450488e1 kernel: [444680.849676] 13:17:07.350259 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 13:17:07 16a8450488e1 kernel: [444680.849889] 13:17:07.350536 dnd       No guest source window
+Dec 19 13:17:07 16a8450488e1 kernel: [444680.858477] 13:17:07.359078 dnd       No guest source window
+Dec 19 13:17:07 16a8450488e1 kernel: [444680.874364] 13:17:07.374794 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 13:17:07 16a8450488e1 kernel: [444680.881626] 13:17:07.382191 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 13:17:07 16a8450488e1 kernel: [444680.881849] 13:17:07.382487 dnd       No guest source window
+Dec 19 13:32:38 16a8450488e1 rsyslogd: rsyslogd's groupid changed to 102
+Dec 19 13:32:38 16a8450488e1 rsyslogd: rsyslogd's userid changed to 101
+Dec 19 13:32:38 16a8450488e1 rsyslogd: [origin software="rsyslogd" swVersion="8.2001.0" x-pid="331" x-info="https://www.rsyslog.com"] start
+Dec 19 13:32:38 16a8450488e1 rsyslogd: cannot connect to 192.168.0.10:5514: Connection refused [v8.2001.0 try https://www.rsyslog.com/e/2027 ]
+Dec 19 13:32:38 16a8450488e1 rsyslogd: action 'action-1-builtin:omfwd' suspended (module 'builtin:omfwd'), retry 0. There should be messages before this one giving the reason for suspension. [v8.2001.0 try https://www.rsyslog.com/e/2007 ]
+Dec 19 13:32:38 16a8450488e1 rsyslogd: cannot connect to 192.168.0.10:5514: Connection refused [v8.2001.0 try https://www.rsyslog.com/e/2027 ]
+Dec 19 13:32:38 16a8450488e1 rsyslogd: action 'action-1-builtin:omfwd' suspended (module 'builtin:omfwd'), next retry is Thu Dec 19 13:33:08 2024, retry nbr 0. There should be messages before this one giving the reason for suspension. [v8.2001.0 try https://www.rsyslog.com/e/2007 ]
+Dec 19 21:32:50 smasher-VirtualBox systemd[1]: Started Run anacron jobs.
+Dec 19 21:32:50 smasher-VirtualBox rsyslogd:  message repeated 31 times: [cannot connect to 192.168.0.10:514: Connection refused [v8.2001.0 try https://www.rsyslog.com/e/2027 ]]
+Dec 19 21:32:50 smasher-VirtualBox rsyslogd: action 'action-1-builtin:omfwd' resumed (module 'builtin:omfwd') [v8.2001.0 try https://www.rsyslog.com/e/2359 ]
+Dec 19 21:32:50 smasher-VirtualBox anacron[752289]: Anacron 2.3 started on 2024-12-19
+Dec 19 21:32:50 smasher-VirtualBox anacron[752289]: Normal exit (0 jobs run)
+Dec 19 21:32:50 smasher-VirtualBox systemd[1]: anacron.service: Succeeded.
+Dec 19 21:32:50 smasher-VirtualBox systemd[1]: Started Run anacron jobs.
+Dec 19 21:32:50 smasher-VirtualBox rsyslogd:  message repeated 31 times: [cannot connect to 192.168.0.10:514: Connection refused [v8.2001.0 try https://www.rsyslog.com/e/2027 ]]
+Dec 19 21:32:50 smasher-VirtualBox rsyslogd: action 'action-1-builtin:omfwd' resumed (module 'builtin:omfwd') [v8.2001.0 try https://www.rsyslog.com/e/2359 ]
+Dec 19 21:32:50 smasher-VirtualBox anacron[752289]: Anacron 2.3 started on 2024-12-19
+Dec 19 21:32:50 smasher-VirtualBox anacron[752289]: Normal exit (0 jobs run)
+Dec 19 21:32:50 smasher-VirtualBox systemd[1]: anacron.service: Succeeded.
+Dec 19 21:33:43 smasher-VirtualBox systemd[2499]: Started VTE child process 752519 launched by gnome-terminal-server process 84750.
+Dec 19 21:33:43 smasher-VirtualBox systemd[2499]: Started VTE child process 752519 launched by gnome-terminal-server process 84750.
+Dec 19 13:33:43 16a8450488e1 rsyslogd: cannot connect to 192.168.0.10:5514: Connection refused [v8.2001.0 try https://www.rsyslog.com/e/2027 ]
+Dec 19 21:35:08 smasher-VirtualBox dbus-daemon[2514]: [session uid=1000 pid=2514] Activating service name='org.gnome.gedit' requested by ':1.84' (uid=1000 pid=3659 comm="/usr/bin/nautilus --gapplication-service " label="unconfined")
+Dec 19 21:35:08 smasher-VirtualBox dbus-daemon[2514]: [session uid=1000 pid=2514] Activating service name='org.gnome.gedit' requested by ':1.84' (uid=1000 pid=3659 comm="/usr/bin/nautilus --gapplication-service " label="unconfined")
+Dec 19 21:35:08 smasher-VirtualBox dbus-daemon[2514]: [session uid=1000 pid=2514] Successfully activated service 'org.gnome.gedit'
+Dec 19 21:35:08 smasher-VirtualBox dbus-daemon[2514]: [session uid=1000 pid=2514] Successfully activated service 'org.gnome.gedit'
+Dec 19 21:36:26 smasher-VirtualBox gnome-shell[2688]: Window manager warning: Buggy client sent a _NET_ACTIVE_WINDOW message with a timestamp of 0 for 0x50000f5
+Dec 19 21:36:26 smasher-VirtualBox gnome-shell[2688]: Window manager warning: Buggy client sent a _NET_ACTIVE_WINDOW message with a timestamp of 0 for 0x50000f5
+Dec 19 21:37:31 49a5e83a8fa3 root Test log from plc1
+Dec 19 21:37:31 094e1cc356cc root Test log from plc2
+Dec 19 21:37:31 e365e87074c1 root Test log from hmi1
+Dec 19 13:37:31 c5d11b8d21ec root Test log from hmi2
+Dec 19 21:37:31 6b382183b641 root Test log from hmi3
+Dec 19 21:37:31 0cde08f5016f root Test log from attacker
+Dec 19 21:37:31 522bbdc6be4e root Test log from attackermachine
+Dec 19 21:37:31 119906a3c345 root Test log from attackerremote
+Dec 19 21:39:19 smasher-VirtualBox dbus-daemon[2514]: [session uid=1000 pid=2514] Activating via systemd: service name='org.freedesktop.Tracker1' unit='tracker-store.service' requested by ':1.64' (uid=1000 pid=3065 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+Dec 19 21:39:19 smasher-VirtualBox dbus-daemon[2514]: [session uid=1000 pid=2514] Activating via systemd: service name='org.freedesktop.Tracker1' unit='tracker-store.service' requested by ':1.64' (uid=1000 pid=3065 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+Dec 19 21:39:19 smasher-VirtualBox systemd[2499]: Starting Tracker metadata database store and lookup manager...
+Dec 19 21:39:19 smasher-VirtualBox systemd[2499]: Starting Tracker metadata database store and lookup manager...
+Dec 19 21:39:19 smasher-VirtualBox dbus-daemon[2514]: [session uid=1000 pid=2514] Successfully activated service 'org.freedesktop.Tracker1'
+Dec 19 21:39:19 smasher-VirtualBox dbus-daemon[2514]: [session uid=1000 pid=2514] Successfully activated service 'org.freedesktop.Tracker1'
+Dec 19 21:39:19 smasher-VirtualBox systemd[2499]: Started Tracker metadata database store and lookup manager.
+Dec 19 21:39:19 smasher-VirtualBox systemd[2499]: Started Tracker metadata database store and lookup manager.
+Dec 19 21:39:19 smasher-VirtualBox dbus-daemon[2514]: [session uid=1000 pid=2514] Activating via systemd: service name='org.freedesktop.Tracker1.Miner.Extract' unit='tracker-extract.service' requested by ':1.64' (uid=1000 pid=3065 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+Dec 19 21:39:19 smasher-VirtualBox dbus-daemon[2514]: [session uid=1000 pid=2514] Activating via systemd: service name='org.freedesktop.Tracker1.Miner.Extract' unit='tracker-extract.service' requested by ':1.64' (uid=1000 pid=3065 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+Dec 19 21:39:19 smasher-VirtualBox systemd[2499]: Starting Tracker metadata extractor...
+Dec 19 21:39:19 smasher-VirtualBox systemd[2499]: Starting Tracker metadata extractor...
+Dec 19 21:39:19 smasher-VirtualBox tracker-extract[754444]: Set scheduler policy to SCHED_IDLE
+Dec 19 21:39:19 smasher-VirtualBox tracker-extract[754444]: Set scheduler policy to SCHED_IDLE
+Dec 19 21:39:19 smasher-VirtualBox tracker-extract[754444]: Setting priority nice level to 19
+Dec 19 21:39:19 smasher-VirtualBox tracker-extract[754444]: Setting priority nice level to 19
+Dec 19 21:39:20 smasher-VirtualBox dbus-daemon[2514]: [session uid=1000 pid=2514] Successfully activated service 'org.freedesktop.Tracker1.Miner.Extract'
+Dec 19 21:39:20 smasher-VirtualBox dbus-daemon[2514]: [session uid=1000 pid=2514] Successfully activated service 'org.freedesktop.Tracker1.Miner.Extract'
+Dec 19 21:39:20 smasher-VirtualBox systemd[2499]: Started Tracker metadata extractor.
+Dec 19 21:39:20 smasher-VirtualBox systemd[2499]: Started Tracker metadata extractor.
+Dec 19 21:39:25 smasher-VirtualBox mx-extract[754490]: rygel-media-export-extract.vala:180: Started with descriptors 3 (in) 4 (out)
+Dec 19 21:39:25 smasher-VirtualBox mx-extract[754490]: rygel-media-export-extract.vala:180: Started with descriptors 3 (in) 4 (out)
+Dec 19 21:39:25 smasher-VirtualBox rygel[2939]: “file:///home/smasher/Pictures/Screenshot%20from%202024-12-19%2021-39-19.png” harvested
+Dec 19 21:39:25 smasher-VirtualBox rygel[2939]: “file:///home/smasher/Pictures/Screenshot%20from%202024-12-19%2021-39-19.png” harvested
+Dec 19 21:39:25 smasher-VirtualBox rygel[2939]: rygel-media-export-harvesting-task.vala:309: Harvesting of file:///home/smasher/Pictures/Screenshot%20from%202024-12-19%2021-39-19.png done in 0.022101
+Dec 19 21:39:25 smasher-VirtualBox rygel[2939]: rygel-media-export-harvesting-task.vala:309: Harvesting of file:///home/smasher/Pictures/Screenshot%20from%202024-12-19%2021-39-19.png done in 0.022101
+Dec 19 21:39:25 smasher-VirtualBox rygel[2939]: rygel-thumbnailer.vala:132: No D-Bus thumbnailer available
+Dec 19 21:39:25 smasher-VirtualBox rygel[2939]: rygel-thumbnailer.vala:132: No D-Bus thumbnailer available
+Dec 19 21:39:30 smasher-VirtualBox systemd[2499]: tracker-extract.service: Succeeded.
+Dec 19 21:39:30 smasher-VirtualBox systemd[2499]: tracker-extract.service: Succeeded.
+Dec 19 21:39:50 smasher-VirtualBox tracker-store[754437]: OK
+Dec 19 21:39:50 smasher-VirtualBox tracker-store[754437]: OK
+Dec 19 21:39:50 smasher-VirtualBox systemd[2499]: tracker-store.service: Succeeded.
+Dec 19 21:39:50 smasher-VirtualBox systemd[2499]: tracker-store.service: Succeeded.
+Dec 19 21:40:56 smasher-VirtualBox dbus-daemon[2514]: [session uid=1000 pid=2514] Activating service name='org.gnome.gedit' requested by ':1.84' (uid=1000 pid=3659 comm="/usr/bin/nautilus --gapplication-service " label="unconfined")
+Dec 19 21:40:56 smasher-VirtualBox dbus-daemon[2514]: [session uid=1000 pid=2514] Activating service name='org.gnome.gedit' requested by ':1.84' (uid=1000 pid=3659 comm="/usr/bin/nautilus --gapplication-service " label="unconfined")
+Dec 19 21:40:56 smasher-VirtualBox dbus-daemon[2514]: [session uid=1000 pid=2514] Successfully activated service 'org.gnome.gedit'
+Dec 19 21:40:56 smasher-VirtualBox dbus-daemon[2514]: [session uid=1000 pid=2514] Successfully activated service 'org.gnome.gedit'
+Dec 19 13:41:39 16a8450488e1 kernel: [446152.820707] 13:41:39.315006 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 13:41:39 16a8450488e1 kernel: [446152.821322] 13:41:39.316046 dnd       No guest source window
+Dec 19 21:41:39 smasher-VirtualBox kernel: [446152.828422] 13:41:39.322846 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 21:41:39 smasher-VirtualBox kernel: [446152.829176] 13:41:39.323991 dnd       No guest source window
+Dec 19 21:41:39 smasher-VirtualBox kernel: [446152.828422] 13:41:39.322846 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 21:41:39 smasher-VirtualBox kernel: [446152.829176] 13:41:39.323991 dnd       No guest source window
+Dec 19 13:41:39 16a8450488e1 kernel: [446152.835517] 13:41:39.330361 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 21:41:39 smasher-VirtualBox kernel: [446152.839057] 13:41:39.333989 dnd       No guest source window
+Dec 19 21:41:39 smasher-VirtualBox kernel: [446152.839057] 13:41:39.333989 dnd       No guest source window
+Dec 19 13:41:39 16a8450488e1 kernel: [446152.843988] 13:41:39.338854 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 13:41:39 16a8450488e1 kernel: [446152.844252] 13:41:39.339191 dnd       No guest source window
+Dec 19 21:41:39 smasher-VirtualBox kernel: [446152.851090] 13:41:39.345955 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 21:41:39 smasher-VirtualBox kernel: [446152.851090] 13:41:39.345955 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 21:41:39 smasher-VirtualBox kernel: [446152.852726] 13:41:39.347647 dnd       No guest source window
+Dec 19 21:41:39 smasher-VirtualBox kernel: [446152.852726] 13:41:39.347647 dnd       No guest source window
+Dec 19 13:41:39 16a8450488e1 kernel: [446152.859081] 13:41:39.353948 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 21:41:39 smasher-VirtualBox kernel: [446152.860583] 13:41:39.355511 dnd       No guest source window
+Dec 19 21:41:39 smasher-VirtualBox kernel: [446152.860583] 13:41:39.355511 dnd       No guest source window
+Dec 19 13:41:39 16a8450488e1 kernel: [446152.867463] 13:41:39.362334 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 21:41:39 smasher-VirtualBox kernel: [446152.871932] 13:41:39.366825 dnd       No guest source window
+Dec 19 21:41:39 smasher-VirtualBox kernel: [446152.871932] 13:41:39.366825 dnd       No guest source window
+Dec 19 13:41:39 16a8450488e1 kernel: [446152.875532] 13:41:39.370391 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 21:41:39 smasher-VirtualBox kernel: [446152.876162] 13:41:39.371084 dnd       No guest source window
+Dec 19 21:41:39 smasher-VirtualBox kernel: [446152.876162] 13:41:39.371084 dnd       No guest source window
+Dec 19 13:41:39 16a8450488e1 kernel: [446152.883313] 13:41:39.378181 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 21:41:39 smasher-VirtualBox kernel: [446152.891893] 13:41:39.386821 dnd       No guest source window
+Dec 19 21:41:39 smasher-VirtualBox kernel: [446152.894769] 13:41:39.389647 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 21:41:39 smasher-VirtualBox kernel: [446152.895048] 13:41:39.389990 dnd       No guest source window
+Dec 19 21:41:39 smasher-VirtualBox kernel: [446152.891893] 13:41:39.386821 dnd       No guest source window
+Dec 19 21:41:39 smasher-VirtualBox kernel: [446152.894769] 13:41:39.389647 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 21:41:39 smasher-VirtualBox kernel: [446152.895048] 13:41:39.389990 dnd       No guest source window
+Dec 19 13:41:39 16a8450488e1 kernel: [446152.899642] 13:41:39.394506 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 21:41:39 smasher-VirtualBox kernel: [446152.903383] 13:41:39.398282 dnd       No guest source window
+Dec 19 21:41:39 smasher-VirtualBox kernel: [446152.903383] 13:41:39.398282 dnd       No guest source window
+Dec 19 21:41:39 smasher-VirtualBox kernel: [446152.907816] 13:41:39.402670 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 21:41:39 smasher-VirtualBox kernel: [446152.907816] 13:41:39.402670 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 21:41:39 smasher-VirtualBox kernel: [446152.909487] 13:41:39.404426 dnd       No guest source window
+Dec 19 21:41:39 smasher-VirtualBox kernel: [446152.909487] 13:41:39.404426 dnd       No guest source window
+Dec 19 13:41:39 16a8450488e1 kernel: [446152.914766] 13:41:39.409647 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 21:41:39 smasher-VirtualBox kernel: [446152.922543] 13:41:39.417473 dnd       No guest source window
+Dec 19 21:41:39 smasher-VirtualBox kernel: [446152.922543] 13:41:39.417473 dnd       No guest source window
+Dec 19 21:41:39 smasher-VirtualBox kernel: [446152.927472] 13:41:39.422333 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 21:41:39 smasher-VirtualBox kernel: [446152.927472] 13:41:39.422333 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 13:41:39 16a8450488e1 kernel: [446152.929620] 13:41:39.424561 dnd       No guest source window
+Dec 19 13:41:39 16a8450488e1 kernel: [446152.931719] 13:41:39.426581 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 21:41:39 smasher-VirtualBox kernel: [446152.932670] 13:41:39.427511 dnd       No guest source window
+Dec 19 21:41:39 smasher-VirtualBox kernel: [446152.932670] 13:41:39.427511 dnd       No guest source window
+Dec 19 13:41:39 16a8450488e1 kernel: [446152.939071] 13:41:39.433922 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 13:41:39 16a8450488e1 kernel: [446152.939387] 13:41:39.434317 dnd       No guest source window
+Dec 19 21:41:39 smasher-VirtualBox kernel: [446152.948750] 13:41:39.443602 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 21:41:39 smasher-VirtualBox kernel: [446152.948750] 13:41:39.443602 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 21:41:39 smasher-VirtualBox kernel: [446152.954957] 13:41:39.449875 dnd       No guest source window
+Dec 19 21:41:39 smasher-VirtualBox kernel: [446152.954957] 13:41:39.449875 dnd       No guest source window
+Dec 19 13:41:39 16a8450488e1 kernel: [446152.958182] 13:41:39.453055 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 13:41:39 16a8450488e1 kernel: [446152.958989] 13:41:39.453929 dnd       No guest source window
+Dec 19 21:41:39 smasher-VirtualBox kernel: [446152.962915] 13:41:39.457785 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 21:41:39 smasher-VirtualBox kernel: [446152.962915] 13:41:39.457785 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 13:41:39 16a8450488e1 kernel: [446152.964334] 13:41:39.459270 dnd       No guest source window
+Dec 19 21:41:39 smasher-VirtualBox kernel: [446152.971582] 13:41:39.466453 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 21:41:39 smasher-VirtualBox kernel: [446152.971582] 13:41:39.466453 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 13:41:39 16a8450488e1 kernel: [446152.973644] 13:41:39.468560 dnd       No guest source window
+Dec 19 21:41:39 smasher-VirtualBox kernel: [446152.978486] 13:41:39.473351 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 21:41:39 smasher-VirtualBox kernel: [446152.978733] 13:41:39.473683 dnd       No guest source window
+Dec 19 21:41:39 smasher-VirtualBox kernel: [446152.978486] 13:41:39.473351 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 21:41:39 smasher-VirtualBox kernel: [446152.978733] 13:41:39.473683 dnd       No guest source window
+Dec 19 13:41:39 16a8450488e1 kernel: [446152.986326] 13:41:39.481203 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 13:41:39 16a8450488e1 kernel: [446152.986564] 13:41:39.481515 dnd       No guest source window
+Dec 19 21:41:39 smasher-VirtualBox kernel: [446152.995384] 13:41:39.490246 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 21:41:39 smasher-VirtualBox kernel: [446152.995685] 13:41:39.490636 dnd       No guest source window
+Dec 19 21:41:39 smasher-VirtualBox kernel: [446152.995384] 13:41:39.490246 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 21:41:39 smasher-VirtualBox kernel: [446152.995685] 13:41:39.490636 dnd       No guest source window
+Dec 19 21:41:39 smasher-VirtualBox kernel: [446153.009499] 13:41:39.504356 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 21:41:39 smasher-VirtualBox kernel: [446153.010426] 13:41:39.505310 dnd       No guest source window
+Dec 19 21:41:39 smasher-VirtualBox kernel: [446153.009499] 13:41:39.504356 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 21:41:39 smasher-VirtualBox kernel: [446153.010426] 13:41:39.505310 dnd       No guest source window
+Dec 19 13:41:39 16a8450488e1 kernel: [446153.013392] 13:41:39.508269 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 13:41:39 16a8450488e1 kernel: [446153.014718] 13:41:39.509656 dnd       No guest source window
+Dec 19 21:41:39 smasher-VirtualBox kernel: [446153.019002] 13:41:39.513879 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 21:41:39 smasher-VirtualBox kernel: [446153.019219] 13:41:39.514173 dnd       No guest source window
+Dec 19 21:41:39 smasher-VirtualBox kernel: [446153.019002] 13:41:39.513879 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 21:41:39 smasher-VirtualBox kernel: [446153.019219] 13:41:39.514173 dnd       No guest source window
+Dec 19 13:41:39 16a8450488e1 kernel: [446153.026666] 13:41:39.521555 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 13:41:39 16a8450488e1 kernel: [446153.026945] 13:41:39.521891 dnd       No guest source window
+Dec 19 21:41:39 smasher-VirtualBox kernel: [446153.036469] 13:41:39.531340 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 21:41:39 smasher-VirtualBox kernel: [446153.036710] 13:41:39.531666 dnd       No guest source window
+Dec 19 21:41:39 smasher-VirtualBox kernel: [446153.036469] 13:41:39.531340 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 21:41:39 smasher-VirtualBox kernel: [446153.036710] 13:41:39.531666 dnd       No guest source window
+Dec 19 13:41:39 16a8450488e1 kernel: [446153.059636] 13:41:39.554504 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 21:41:39 smasher-VirtualBox kernel: [446153.060670] 13:41:39.555606 dnd       No guest source window
+Dec 19 21:41:39 smasher-VirtualBox kernel: [446153.060670] 13:41:39.555606 dnd       No guest source window
+Dec 19 13:41:39 16a8450488e1 kernel: [446153.075460] 13:41:39.570324 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 21:41:39 smasher-VirtualBox kernel: [446153.076621] 13:41:39.571573 dnd       No guest source window
+Dec 19 21:41:39 smasher-VirtualBox kernel: [446153.076621] 13:41:39.571573 dnd       No guest source window
+Dec 19 13:41:39 16a8450488e1 kernel: [446153.090528] 13:41:39.585398 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 13:41:39 16a8450488e1 kernel: [446153.090753] 13:41:39.585711 dnd       No guest source window
+Dec 19 21:46:23 smasher-VirtualBox kernel: [446436.938303] 13:46:23.434625 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 21:46:23 smasher-VirtualBox kernel: [446436.938303] 13:46:23.434625 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 13:46:23 16a8450488e1 kernel: [446436.941225] 13:46:23.438078 dnd       No guest source window
+Dec 19 21:46:23 smasher-VirtualBox kernel: [446436.954177] 13:46:23.450655 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 21:46:23 smasher-VirtualBox kernel: [446436.954177] 13:46:23.450655 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 21:46:23 smasher-VirtualBox kernel: [446436.956059] 13:46:23.453012 dnd       No guest source window
+Dec 19 21:46:23 smasher-VirtualBox kernel: [446436.956059] 13:46:23.453012 dnd       No guest source window
+Dec 19 13:46:23 16a8450488e1 kernel: [446436.978253] 13:46:23.475239 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 13:46:23 16a8450488e1 kernel: [446436.980480] 13:46:23.477502 dnd       No guest source window
+Dec 19 21:46:23 smasher-VirtualBox kernel: [446436.985879] 13:46:23.482874 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 21:46:23 smasher-VirtualBox kernel: [446436.985879] 13:46:23.482874 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 21:46:23 smasher-VirtualBox kernel: [446436.997142] 13:46:23.494192 dnd       No guest source window
+Dec 19 21:46:23 smasher-VirtualBox kernel: [446436.997142] 13:46:23.494192 dnd       No guest source window
+Dec 19 21:46:23 smasher-VirtualBox kernel: [446437.002316] 13:46:23.499317 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 21:46:23 smasher-VirtualBox kernel: [446437.002316] 13:46:23.499317 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 13:46:23 16a8450488e1 kernel: [446437.015900] 13:46:23.505648 dnd       No guest source window
+Dec 19 21:46:23 smasher-VirtualBox kernel: [446437.026162] 13:46:23.523158 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 21:46:23 smasher-VirtualBox kernel: [446437.026408] 13:46:23.523483 dnd       No guest source window
+Dec 19 21:46:23 smasher-VirtualBox kernel: [446437.026162] 13:46:23.523158 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 21:46:23 smasher-VirtualBox kernel: [446437.026408] 13:46:23.523483 dnd       No guest source window
+Dec 19 13:46:23 16a8450488e1 kernel: [446437.033560] 13:46:23.530547 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 21:46:23 smasher-VirtualBox kernel: [446437.047884] 13:46:23.544938 dnd       No guest source window
+Dec 19 21:46:23 smasher-VirtualBox kernel: [446437.048489] 13:46:23.545503 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 21:46:23 smasher-VirtualBox kernel: [446437.048814] 13:46:23.545881 dnd       No guest source window
+Dec 19 21:46:23 smasher-VirtualBox kernel: [446437.047884] 13:46:23.544938 dnd       No guest source window
+Dec 19 21:46:23 smasher-VirtualBox kernel: [446437.048489] 13:46:23.545503 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 21:46:23 smasher-VirtualBox kernel: [446437.048814] 13:46:23.545881 dnd       No guest source window
+Dec 19 13:46:23 16a8450488e1 kernel: [446437.074024] 13:46:23.571011 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 13:46:23 16a8450488e1 kernel: [446437.074456] 13:46:23.571528 dnd       No guest source window
+Dec 19 21:46:23 smasher-VirtualBox kernel: [446437.081801] 13:46:23.578804 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 21:46:23 smasher-VirtualBox kernel: [446437.082046] 13:46:23.579120 dnd       No guest source window
+Dec 19 21:46:23 smasher-VirtualBox kernel: [446437.081801] 13:46:23.578804 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 21:46:23 smasher-VirtualBox kernel: [446437.082046] 13:46:23.579120 dnd       No guest source window
+Dec 19 13:46:23 16a8450488e1 kernel: [446437.097612] 13:46:23.594594 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 21:46:23 smasher-VirtualBox kernel: [446437.098481] 13:46:23.595547 dnd       No guest source window
+Dec 19 21:46:23 smasher-VirtualBox kernel: [446437.098481] 13:46:23.595547 dnd       No guest source window
+Dec 19 13:46:23 16a8450488e1 kernel: [446437.113852] 13:46:23.610851 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 13:46:23 16a8450488e1 kernel: [446437.114467] 13:46:23.611546 dnd       No guest source window
+Dec 19 21:46:23 smasher-VirtualBox kernel: [446437.133232] 13:46:23.630191 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 21:46:23 smasher-VirtualBox kernel: [446437.133232] 13:46:23.630191 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 13:46:23 16a8450488e1 kernel: [446437.137875] 13:46:23.634921 dnd       No guest source window
+Dec 19 21:46:23 smasher-VirtualBox kernel: [446437.145832] 13:46:23.642837 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 21:46:23 smasher-VirtualBox kernel: [446437.148607] 13:46:23.645660 dnd       No guest source window
+Dec 19 21:46:23 smasher-VirtualBox kernel: [446437.145832] 13:46:23.642837 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 21:46:23 smasher-VirtualBox kernel: [446437.148607] 13:46:23.645660 dnd       No guest source window
+Dec 19 13:46:23 16a8450488e1 kernel: [446437.177988] 13:46:23.674976 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 13:46:23 16a8450488e1 kernel: [446437.178516] 13:46:23.675597 dnd       No guest source window
+Dec 19 21:46:23 smasher-VirtualBox kernel: [446437.189825] 13:46:23.683385 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 21:46:23 smasher-VirtualBox kernel: [446437.189825] 13:46:23.683385 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 13:46:23 16a8450488e1 kernel: [446437.196243] 13:46:23.693321 dnd       No guest source window
+Dec 19 21:46:23 smasher-VirtualBox kernel: [446437.211111] 13:46:23.708090 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 21:46:23 smasher-VirtualBox kernel: [446437.211580] 13:46:23.708670 dnd       No guest source window
+Dec 19 21:46:23 smasher-VirtualBox kernel: [446437.211111] 13:46:23.708090 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 21:46:23 smasher-VirtualBox kernel: [446437.211580] 13:46:23.708670 dnd       No guest source window
+Dec 19 13:46:23 16a8450488e1 kernel: [446437.227613] 13:46:23.723540 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 13:46:23 16a8450488e1 kernel: [446437.228570] 13:46:23.725645 dnd       No guest source window
+Dec 19 21:46:23 smasher-VirtualBox kernel: [446437.242250] 13:46:23.739247 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 21:46:23 smasher-VirtualBox kernel: [446437.243207] 13:46:23.740284 dnd       No guest source window
+Dec 19 21:46:23 smasher-VirtualBox kernel: [446437.242250] 13:46:23.739247 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 21:46:23 smasher-VirtualBox kernel: [446437.243207] 13:46:23.740284 dnd       No guest source window
+Dec 19 13:46:23 16a8450488e1 kernel: [446437.258016] 13:46:23.755021 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 13:46:23 16a8450488e1 kernel: [446437.258246] 13:46:23.755342 dnd       No guest source window
+Dec 19 21:46:23 smasher-VirtualBox kernel: [446437.290330] 13:46:23.787332 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 21:46:23 smasher-VirtualBox kernel: [446437.290330] 13:46:23.787332 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 13:46:23 16a8450488e1 kernel: [446437.296202] 13:46:23.793278 dnd       No guest source window
+Dec 19 21:46:23 smasher-VirtualBox kernel: [446437.308235] 13:46:23.805240 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 21:46:23 smasher-VirtualBox kernel: [446437.308235] 13:46:23.805240 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 13:46:23 16a8450488e1 kernel: [446437.313887] 13:46:23.810971 dnd       No guest source window
+Dec 19 13:46:23 16a8450488e1 kernel: [446437.314974] 13:46:23.811993 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 13:46:23 16a8450488e1 kernel: [446437.317406] 13:46:23.814487 dnd       No guest source window
+Dec 19 21:46:23 smasher-VirtualBox kernel: [446437.362381] 13:46:23.859389 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 21:46:23 smasher-VirtualBox kernel: [446437.362837] 13:46:23.859926 dnd       No guest source window
+Dec 19 21:46:23 smasher-VirtualBox kernel: [446437.362381] 13:46:23.859389 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 21:46:23 smasher-VirtualBox kernel: [446437.362837] 13:46:23.859926 dnd       No guest source window
+Dec 19 21:46:24 smasher-VirtualBox kernel: [446437.617781] 13:46:24.114822 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 21:46:24 smasher-VirtualBox kernel: [446437.618003] 13:46:24.115127 dnd       No guest source window
+Dec 19 21:46:24 smasher-VirtualBox kernel: [446437.617781] 13:46:24.114822 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 21:46:24 smasher-VirtualBox kernel: [446437.618003] 13:46:24.115127 dnd       No guest source window
+Dec 19 21:46:24 smasher-VirtualBox kernel: [446437.625551] 13:46:24.122568 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 21:46:24 smasher-VirtualBox kernel: [446437.625551] 13:46:24.122568 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 21:46:24 smasher-VirtualBox kernel: [446437.626339] 13:46:24.123453 dnd       No guest source window
+Dec 19 21:46:24 smasher-VirtualBox kernel: [446437.626339] 13:46:24.123453 dnd       No guest source window
+Dec 19 13:46:24 16a8450488e1 kernel: [446437.633467] 13:46:24.130505 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 21:46:24 smasher-VirtualBox kernel: [446437.634741] 13:46:24.131834 dnd       No guest source window
+Dec 19 21:46:24 smasher-VirtualBox kernel: [446437.634741] 13:46:24.131834 dnd       No guest source window
+Dec 19 13:46:24 16a8450488e1 kernel: [446437.642458] 13:46:24.139504 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 21:46:24 smasher-VirtualBox kernel: [446437.646895] 13:46:24.143995 dnd       No guest source window
+Dec 19 21:46:24 smasher-VirtualBox kernel: [446437.649493] 13:46:24.146544 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 21:46:24 smasher-VirtualBox kernel: [446437.646895] 13:46:24.143995 dnd       No guest source window
+Dec 19 21:46:24 smasher-VirtualBox kernel: [446437.649493] 13:46:24.146544 dndHGCM   DnD: Received message HOST_DND_FN_GH_REQ_PENDING (0x258) from host
+Dec 19 13:46:24 16a8450488e1 kernel: [446437.650707] 13:46:24.147827 dnd       No guest source window
+Dec 19 13:50:17 16a8450488e1 rsyslogd: rsyslogd's groupid changed to 102
+Dec 19 13:50:17 16a8450488e1 rsyslogd: rsyslogd's userid changed to 101
+Dec 19 13:50:17 16a8450488e1 rsyslogd: [origin software="rsyslogd" swVersion="8.2001.0" x-pid="388" x-info="https://www.rsyslog.com"] start
+Dec 19 21:53:32 smasher-VirtualBox dbus-daemon[2514]: [session uid=1000 pid=2514] Activating service name='org.gnome.gedit' requested by ':1.84' (uid=1000 pid=3659 comm="/usr/bin/nautilus --gapplication-service " label="unconfined")
+Dec 19 21:53:32 smasher-VirtualBox dbus-daemon[2514]: [session uid=1000 pid=2514] Successfully activated service 'org.gnome.gedit'
+Dec 19 21:53:32 smasher-VirtualBox rsyslogd: omfwd: TCPSendBuf error -2027, destruct TCP Connection to 192.168.0.10:514 [v8.2001.0 try https://www.rsyslog.com/e/2027 ]
+Dec 19 21:53:32 smasher-VirtualBox rsyslogd: action 'action-1-builtin:omfwd' suspended (module 'builtin:omfwd'), retry 0. There should be messages before this one giving the reason for suspension. [v8.2001.0 try https://www.rsyslog.com/e/2007 ]
+Dec 19 21:53:32 smasher-VirtualBox rsyslogd: action 'action-1-builtin:omfwd' resumed (module 'builtin:omfwd') [v8.2001.0 try https://www.rsyslog.com/e/2359 ]
+Dec 19 21:53:32 smasher-VirtualBox dbus-daemon[2514]: [session uid=1000 pid=2514] Successfully activated service 'org.gnome.gedit'
+Dec 19 21:53:32 smasher-VirtualBox rsyslogd: omfwd: TCPSendBuf error -2027, destruct TCP Connection to 192.168.0.10:514 [v8.2001.0 try https://www.rsyslog.com/e/2027 ]
+Dec 19 21:53:32 smasher-VirtualBox rsyslogd: action 'action-1-builtin:omfwd' suspended (module 'builtin:omfwd'), retry 0. There should be messages before this one giving the reason for suspension. [v8.2001.0 try https://www.rsyslog.com/e/2007 ]
+Dec 19 21:53:32 smasher-VirtualBox rsyslogd: action 'action-1-builtin:omfwd' resumed (module 'builtin:omfwd') [v8.2001.0 try https://www.rsyslog.com/e/2359 ]
+Dec 19 21:54:02 smasher-VirtualBox nautilus[3659]: Called "net usershare info" but it failed: Failed to execute child process “net” (No such file or directory)
+Dec 19 21:54:02 smasher-VirtualBox nautilus[3659]: Called "net usershare info" but it failed: Failed to execute child process “net” (No such file or directory)
+Dec 19 21:54:11 smasher-VirtualBox dbus-daemon[2514]: [session uid=1000 pid=2514] Activating service name='org.gnome.gedit' requested by ':1.84' (uid=1000 pid=3659 comm="/usr/bin/nautilus --gapplication-service " label="unconfined")
+Dec 19 21:54:11 smasher-VirtualBox dbus-daemon[2514]: [session uid=1000 pid=2514] Activating service name='org.gnome.gedit' requested by ':1.84' (uid=1000 pid=3659 comm="/usr/bin/nautilus --gapplication-service " label="unconfined")
+Dec 19 21:54:11 smasher-VirtualBox dbus-daemon[2514]: [session uid=1000 pid=2514] Successfully activated service 'org.gnome.gedit'
+Dec 19 21:54:11 smasher-VirtualBox dbus-daemon[2514]: [session uid=1000 pid=2514] Successfully activated service 'org.gnome.gedit'
+Dec 19 21:54:24 smasher-VirtualBox /usr/lib/gdm3/gdm-x-session[2520 (EE) client bug: timer event4 debounce short: scheduled expiry is in the past (-0ms), your system is too slow
+Dec 19 21:54:24 smasher-VirtualBox /usr/lib/gdm3/gdm-x-session[2520 (EE) client bug: timer event4 debounce short: scheduled expiry is in the past (-0ms), your system is too slow
+Dec 19 22:00:33 smasher-VirtualBox dbus-daemon[2514]: [session uid=1000 pid=2514] Activating service name='org.gnome.gedit' requested by ':1.84' (uid=1000 pid=3659 comm="/usr/bin/nautilus --gapplication-service " label="unconfined")
+Dec 19 22:00:33 smasher-VirtualBox dbus-daemon[2514]: [session uid=1000 pid=2514] Activating service name='org.gnome.gedit' requested by ':1.84' (uid=1000 pid=3659 comm="/usr/bin/nautilus --gapplication-service " label="unconfined")
+Dec 19 22:00:33 smasher-VirtualBox dbus-daemon[2514]: [session uid=1000 pid=2514] Successfully activated service 'org.gnome.gedit'
+Dec 19 22:00:33 smasher-VirtualBox dbus-daemon[2514]: [session uid=1000 pid=2514] Successfully activated service 'org.gnome.gedit'
+Dec 19 22:05:11 smasher-VirtualBox dbus-daemon[2514]: [session uid=1000 pid=2514] Activating service name='org.gnome.gedit' requested by ':1.84' (uid=1000 pid=3659 comm="/usr/bin/nautilus --gapplication-service " label="unconfined")
+Dec 19 22:05:11 smasher-VirtualBox dbus-daemon[2514]: [session uid=1000 pid=2514] Activating service name='org.gnome.gedit' requested by ':1.84' (uid=1000 pid=3659 comm="/usr/bin/nautilus --gapplication-service " label="unconfined")
+Dec 19 22:05:11 smasher-VirtualBox dbus-daemon[2514]: [session uid=1000 pid=2514] Successfully activated service 'org.gnome.gedit'
+Dec 19 22:05:11 smasher-VirtualBox dbus-daemon[2514]: [session uid=1000 pid=2514] Successfully activated service 'org.gnome.gedit'
+Dec 19 14:25:34 3ae3fc840736 rsyslogd: environment variable TZ is not set, auto correcting this to TZ=/etc/localtime [v8.2001.0 try https://www.rsyslog.com/e/2442 ]
+Dec 19 14:25:34 3ae3fc840736 rsyslogd: rsyslogd's groupid changed to 102
+Dec 19 14:25:34 3ae3fc840736 rsyslogd: rsyslogd's userid changed to 101
+Dec 19 14:25:34 3ae3fc840736 rsyslogd: [origin software="rsyslogd" swVersion="8.2001.0" x-pid="1" x-info="https://www.rsyslog.com"] start
+Dec 19 14:25:36 3ae3fc840736 kernel: [448790.336208] device br_icsnet entered promiscuous mode
+Dec 19 14:54:12 2f6c2614ba6a rsyslogd: environment variable TZ is not set, auto correcting this to TZ=/etc/localtime [v8.2001.0 try https://www.rsyslog.com/e/2442 ]
+Dec 19 14:54:12 2f6c2614ba6a rsyslogd: rsyslogd's groupid changed to 102
+Dec 19 14:54:12 2f6c2614ba6a rsyslogd: rsyslogd's userid changed to 101
+Dec 19 14:54:12 2f6c2614ba6a rsyslogd: [origin software="rsyslogd" swVersion="8.2001.0" x-pid="1" x-info="https://www.rsyslog.com"] start
+Dec 19 14:54:12 2f6c2614ba6a kernel: [450505.717742] eth0: renamed from vetheaa3cb8
+Dec 19 14:54:12 2f6c2614ba6a kernel: [450505.803802] IPv6: ADDRCONF(NETDEV_CHANGE): veth43628a0: link becomes ready
+Dec 19 14:54:12 2f6c2614ba6a kernel: [450505.803849] br_phynet: port 2(veth43628a0) entered blocking state
+Dec 19 14:54:12 2f6c2614ba6a kernel: [450505.803851] br_phynet: port 2(veth43628a0) entered forwarding state
+Dec 19 16:24:26 2f6c2614ba6a kernel: [455920.017719] 16:24:26.519542 SHCLX11   Shared Clipboard: Converting VBox formats 'UNICODETEXT' to 'INVALID' for X11 (idxFmtX11=0, fmtX11=0, 
+Dec 19 16:24:42 2f6c2614ba6a kernel: [455920.027408] 16:24:26.529837 SHCLX11   Shared Clipboard: Converting VBox formats 'UNICODETEXT' to 'INVALID' for X11 (idxFmtX11=0, fmtX11=0, 
+Dec 19 16:24:42 2f6c2614ba6a kernel: [455935.891415] 16:24:42.395788 SHCLX11   Shared Clipboard: Converting VBox formats 'UNICODETEXT' to 'INVALID' for X11 (idxFmtX11=0, fmtX11=0, 

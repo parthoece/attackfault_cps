@@ -1,0 +1,22 @@
+Dec 19 21:36:26 smasher-VirtualBox sudo:  smasher : TTY=pts/5 ; PWD=/home/smasher/ICSSIM/deployments ; USER=root ; COMMAND=/usr/bin/gedit ./testlog.sh
+Dec 19 21:36:26 smasher-VirtualBox sudo:  smasher : TTY=pts/5 ; PWD=/home/smasher/ICSSIM/deployments ; USER=root ; COMMAND=/usr/bin/gedit ./testlog.sh
+Dec 19 21:36:26 smasher-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 19 21:36:26 smasher-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 19 21:36:37 smasher-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Dec 19 21:36:37 smasher-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Dec 19 21:37:15 smasher-VirtualBox sudo:  smasher : TTY=pts/5 ; PWD=/home/smasher/ICSSIM/deployments ; USER=root ; COMMAND=/usr/bin/chmod 777 testlog.sh
+Dec 19 21:37:15 smasher-VirtualBox sudo:  smasher : TTY=pts/5 ; PWD=/home/smasher/ICSSIM/deployments ; USER=root ; COMMAND=/usr/bin/chmod 777 testlog.sh
+Dec 19 21:37:15 smasher-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 19 21:37:15 smasher-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 19 21:37:15 smasher-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Dec 19 21:37:15 smasher-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Dec 19 21:37:31 smasher-VirtualBox sudo:  smasher : TTY=pts/5 ; PWD=/home/smasher/ICSSIM/deployments ; USER=root ; COMMAND=./testlog.sh
+Dec 19 21:37:31 smasher-VirtualBox sudo:  smasher : TTY=pts/5 ; PWD=/home/smasher/ICSSIM/deployments ; USER=root ; COMMAND=./testlog.sh
+Dec 19 21:37:31 smasher-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 19 21:37:31 smasher-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 19 21:37:31 smasher-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Dec 19 21:37:31 smasher-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Dec 19 22:06:59 smasher-VirtualBox polkitd(authority=local): Registered Authentication Agent for unix-process:762224:44767267 (system bus name :1.306 [/usr/bin/pkttyagent --notify-fd 5 --fallback], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Dec 19 22:06:59 smasher-VirtualBox polkitd(authority=local): Registered Authentication Agent for unix-process:762224:44767267 (system bus name :1.306 [/usr/bin/pkttyagent --notify-fd 5 --fallback], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Dec 19 22:07:05 smasher-VirtualBox polkitd(authority=local): Operator of unix-session:2 successfully authenticated as unix-user:smasher to gain TEMPORARY authorization for action org.freedesktop.systemd1.manage-units for system-bus-name::1.307 [systemctl restart rsyslog.service] (owned by unix-user:smasher)
+Dec 19 22:07:05 smasher-VirtualBox polkitd(authority=local): Operator of unix-session:2 successfully authenticated as unix-user:smasher to gain TEMPORARY authorization for action org.freedesktop.systemd1.manage-units for system-bus-name::1.307 [systemctl restart rsyslog.service] (owned by unix-user:smasher)

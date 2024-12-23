@@ -1,0 +1,607 @@
+Dec 19 22:25:34 smasher-VirtualBox gnome-shell[2688]: Removing a network device that was not added
+Dec 19 22:25:34 smasher-VirtualBox kernel: [448788.226326] eth0: renamed from veth4295d94
+Dec 19 22:25:34 smasher-VirtualBox kernel: [448788.226671] IPv6: ADDRCONF(NETDEV_CHANGE): veth4baffbf: link becomes ready
+Dec 19 22:25:34 smasher-VirtualBox kernel: [448788.226692] br_icsnet: port 5(veth4baffbf) entered blocking state
+Dec 19 22:25:34 smasher-VirtualBox kernel: [448788.226694] br_icsnet: port 5(veth4baffbf) entered forwarding state
+Dec 19 22:25:34 smasher-VirtualBox NetworkManager[547]: <info>  [1734618334.7206] device (veth4baffbf): carrier: link connected
+Dec 19 22:25:34 smasher-VirtualBox NetworkManager[547]: <info>  [1734618334.7207] device (br_icsnet): carrier: link connected
+Dec 19 22:25:36 smasher-VirtualBox avahi-daemon[543]: Joining mDNS multicast group on interface veth4baffbf.IPv6 with address fe80::5c76:ff:fe7b:56d0.
+Dec 19 22:25:36 smasher-VirtualBox avahi-daemon[543]: New relevant interface veth4baffbf.IPv6 for mDNS.
+Dec 19 22:25:36 smasher-VirtualBox avahi-daemon[543]: Registering new address record for fe80::5c76:ff:fe7b:56d0 on veth4baffbf.*.
+Dec 19 22:25:42 smasher-VirtualBox systemd[1]: NetworkManager-dispatcher.service: Succeeded.
+Dec 19 22:30:01 smasher-VirtualBox CRON[765990]: (root) CMD ([ -x /etc/init.d/anacron ] && if [ ! -d /run/systemd/system ]; then /usr/sbin/invoke-rc.d anacron start >/dev/null; fi)
+Dec 19 22:31:06 smasher-VirtualBox dbus-daemon[2514]: [session uid=1000 pid=2514] Activating service name='org.gnome.gedit' requested by ':1.84' (uid=1000 pid=3659 comm="/usr/bin/nautilus --gapplication-service " label="unconfined")
+Dec 19 22:31:06 smasher-VirtualBox dbus-daemon[2514]: [session uid=1000 pid=2514] Successfully activated service 'org.gnome.gedit'
+Dec 19 22:31:06 smasher-VirtualBox gedit[766000]: Loading metadata failed: The specified location is not mounted
+Dec 19 22:32:34 smasher-VirtualBox dbus-daemon[2514]: [session uid=1000 pid=2514] Activating via systemd: service name='org.freedesktop.Tracker1' unit='tracker-store.service' requested by ':1.64' (uid=1000 pid=3065 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+Dec 19 22:32:34 smasher-VirtualBox systemd[2499]: Starting Tracker metadata database store and lookup manager...
+Dec 19 22:32:34 smasher-VirtualBox dbus-daemon[2514]: [session uid=1000 pid=2514] Successfully activated service 'org.freedesktop.Tracker1'
+Dec 19 22:32:34 smasher-VirtualBox systemd[2499]: Started Tracker metadata database store and lookup manager.
+Dec 19 22:33:04 smasher-VirtualBox tracker-store[766048]: OK
+Dec 19 22:33:04 smasher-VirtualBox systemd[2499]: tracker-store.service: Succeeded.
+Dec 19 22:34:04 smasher-VirtualBox anacron[766107]: Anacron 2.3 started on 2024-12-19
+Dec 19 22:34:04 smasher-VirtualBox anacron[766107]: Normal exit (0 jobs run)
+Dec 19 22:34:04 smasher-VirtualBox systemd[1]: Started Run anacron jobs.
+Dec 19 22:34:04 smasher-VirtualBox systemd[1]: anacron.service: Succeeded.
+Dec 19 22:35:46 smasher-VirtualBox systemd[1]: Starting Daily apt download activities...
+Dec 19 22:35:46 smasher-VirtualBox systemd[1]: apt-daily.service: Succeeded.
+Dec 19 22:35:46 smasher-VirtualBox systemd[1]: Finished Daily apt download activities.
+Dec 19 22:37:59 smasher-VirtualBox gnome-shell[2688]: cr_parser_new_from_buf: assertion 'a_buf && a_len' failed
+Dec 19 22:37:59 smasher-VirtualBox gnome-shell[2688]: cr_declaration_parse_list_from_buf: assertion 'parser' failed
+Dec 19 22:37:59 smasher-VirtualBox gnome-shell[2688]: cr_parser_new_from_buf: assertion 'a_buf && a_len' failed
+Dec 19 22:37:59 smasher-VirtualBox gnome-shell[2688]: cr_declaration_parse_list_from_buf: assertion 'parser' failed
+Dec 19 22:37:59 smasher-VirtualBox gnome-shell[2688]: g_dbus_connection_emit_signal: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+Dec 19 22:37:59 smasher-VirtualBox gnome-shell[2688]: cr_parser_new_from_buf: assertion 'a_buf && a_len' failed
+Dec 19 22:37:59 smasher-VirtualBox gnome-shell[2688]: cr_declaration_parse_list_from_buf: assertion 'parser' failed
+Dec 19 22:47:09 smasher-VirtualBox dbus-daemon[546]: [system] Activating via systemd: service name='net.reactivated.Fprint' unit='fprintd.service' requested by ':1.81' (uid=1000 pid=2688 comm="/usr/bin/gnome-shell " label="unconfined")
+Dec 19 22:47:09 smasher-VirtualBox systemd[1]: Starting Fingerprint Authentication Daemon...
+Dec 19 22:47:09 smasher-VirtualBox dbus-daemon[546]: [system] Successfully activated service 'net.reactivated.Fprint'
+Dec 19 22:47:09 smasher-VirtualBox systemd[1]: Started Fingerprint Authentication Daemon.
+Dec 19 22:47:21 smasher-VirtualBox gnome-shell[2688]: JS WARNING: [resource:///org/gnome/shell/gdm/util.js 285]: reference to undefined property "_currentMessageExtraInterval"
+Dec 19 22:47:24 smasher-VirtualBox NetworkManager[547]: <info>  [1734619644.9243] agent-manager: agent[439f4387c6293fa2,:1.81/org.gnome.Shell.NetworkAgent/1000]: agent registered
+Dec 19 22:47:24 smasher-VirtualBox gnome-shell[2688]: cr_parser_new_from_buf: assertion 'a_buf && a_len' failed
+Dec 19 22:47:24 smasher-VirtualBox gnome-shell[2688]: cr_declaration_parse_list_from_buf: assertion 'parser' failed
+Dec 19 22:47:24 smasher-VirtualBox gnome-shell[2688]: cr_parser_new_from_buf: assertion 'a_buf && a_len' failed
+Dec 19 22:47:24 smasher-VirtualBox gnome-shell[2688]: cr_declaration_parse_list_from_buf: assertion 'parser' failed
+Dec 19 22:47:24 smasher-VirtualBox gnome-shell[2688]: cr_parser_new_from_buf: assertion 'a_buf && a_len' failed
+Dec 19 22:47:24 smasher-VirtualBox gnome-shell[2688]: cr_declaration_parse_list_from_buf: assertion 'parser' failed
+Dec 19 22:47:25 smasher-VirtualBox gnome-shell[2688]: cr_parser_new_from_buf: assertion 'a_buf && a_len' failed
+Dec 19 22:47:25 smasher-VirtualBox gnome-shell[2688]: cr_declaration_parse_list_from_buf: assertion 'parser' failed
+Dec 19 22:47:25 smasher-VirtualBox gnome-shell[2688]: Window manager warning: Overwriting existing binding of keysym 38 with keysym 38 (keycode 11).
+Dec 19 22:47:25 smasher-VirtualBox gnome-shell[2688]: Window manager warning: Overwriting existing binding of keysym 39 with keysym 39 (keycode 12).
+Dec 19 22:47:25 smasher-VirtualBox gnome-shell[2688]: Window manager warning: Overwriting existing binding of keysym 31 with keysym 31 (keycode a).
+Dec 19 22:47:25 smasher-VirtualBox gnome-shell[2688]: Window manager warning: Overwriting existing binding of keysym 32 with keysym 32 (keycode b).
+Dec 19 22:47:25 smasher-VirtualBox gnome-shell[2688]: Window manager warning: Overwriting existing binding of keysym 33 with keysym 33 (keycode c).
+Dec 19 22:47:25 smasher-VirtualBox gnome-shell[2688]: Window manager warning: Overwriting existing binding of keysym 34 with keysym 34 (keycode d).
+Dec 19 22:47:25 smasher-VirtualBox gnome-shell[2688]: Window manager warning: Overwriting existing binding of keysym 35 with keysym 35 (keycode e).
+Dec 19 22:47:25 smasher-VirtualBox gnome-shell[2688]: Window manager warning: Overwriting existing binding of keysym 36 with keysym 36 (keycode f).
+Dec 19 22:47:25 smasher-VirtualBox gnome-shell[2688]: Window manager warning: Overwriting existing binding of keysym 37 with keysym 37 (keycode 10).
+Dec 19 22:47:39 smasher-VirtualBox systemd[1]: fprintd.service: Succeeded.
+Dec 19 22:47:41 smasher-VirtualBox nautilus[3659]: Couldn't call Modify on the PackageKit interface: no owner for PackageKit
+Dec 19 22:48:15 smasher-VirtualBox nautilus[3659]: Called "net usershare info" but it failed: Failed to execute child process “net” (No such file or directory)
+Dec 19 22:48:17 smasher-VirtualBox dbus-daemon[2514]: [session uid=1000 pid=2514] Activating service name='org.gnome.gedit' requested by ':1.84' (uid=1000 pid=3659 comm="/usr/bin/nautilus --gapplication-service " label="unconfined")
+Dec 19 22:48:17 smasher-VirtualBox dbus-daemon[2514]: [session uid=1000 pid=2514] Successfully activated service 'org.gnome.gedit'
+Dec 19 22:50:15 smasher-VirtualBox dbus-daemon[2514]: [session uid=1000 pid=2514] Activating service name='org.gnome.gedit' requested by ':1.84' (uid=1000 pid=3659 comm="/usr/bin/nautilus --gapplication-service " label="unconfined")
+Dec 19 22:50:15 smasher-VirtualBox dbus-daemon[2514]: [session uid=1000 pid=2514] Successfully activated service 'org.gnome.gedit'
+Dec 19 22:51:20 smasher-VirtualBox dbus-daemon[2514]: [session uid=1000 pid=2514] Activating service name='org.gnome.gedit' requested by ':1.84' (uid=1000 pid=3659 comm="/usr/bin/nautilus --gapplication-service " label="unconfined")
+Dec 19 22:51:20 smasher-VirtualBox dbus-daemon[2514]: [session uid=1000 pid=2514] Successfully activated service 'org.gnome.gedit'
+Dec 19 22:53:59 smasher-VirtualBox dockerd[770]: time="2024-12-19T22:53:59.459587227+08:00" level=info msg="ignoring event" container=3ae3fc840736adf0c693d7c2e1f16650a0d6e79dec8e0b2a07055dbc01118cef module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Dec 19 22:53:59 smasher-VirtualBox containerd[654]: time="2024-12-19T22:53:59.461012794+08:00" level=info msg="shim disconnected" id=3ae3fc840736adf0c693d7c2e1f16650a0d6e79dec8e0b2a07055dbc01118cef namespace=moby
+Dec 19 22:53:59 smasher-VirtualBox containerd[654]: time="2024-12-19T22:53:59.461486343+08:00" level=warning msg="cleaning up after shim disconnected" id=3ae3fc840736adf0c693d7c2e1f16650a0d6e79dec8e0b2a07055dbc01118cef namespace=moby
+Dec 19 22:53:59 smasher-VirtualBox containerd[654]: time="2024-12-19T22:53:59.461896879+08:00" level=info msg="cleaning up dead shim" namespace=moby
+Dec 19 22:53:59 smasher-VirtualBox kernel: [450493.004790] br_icsnet: port 5(veth4baffbf) entered disabled state
+Dec 19 22:53:59 smasher-VirtualBox kernel: [450493.006698] veth4295d94: renamed from eth0
+Dec 19 22:53:59 smasher-VirtualBox NetworkManager[547]: <info>  [1734620039.5083] manager: (veth4295d94): new Veth device (/org/freedesktop/NetworkManager/Devices/388)
+Dec 19 22:53:59 smasher-VirtualBox systemd-udevd[766575]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Dec 19 22:53:59 smasher-VirtualBox systemd-udevd[766575]: Using default interface naming scheme 'v245'.
+Dec 19 22:53:59 smasher-VirtualBox systemd-udevd[766575]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Dec 19 22:53:59 smasher-VirtualBox avahi-daemon[543]: Interface veth4baffbf.IPv6 no longer relevant for mDNS.
+Dec 19 22:53:59 smasher-VirtualBox avahi-daemon[543]: Leaving mDNS multicast group on interface veth4baffbf.IPv6 with address fe80::5c76:ff:fe7b:56d0.
+Dec 19 22:53:59 smasher-VirtualBox NetworkManager[547]: <info>  [1734620039.5452] device (veth4baffbf): released from master device br_icsnet
+Dec 19 22:53:59 smasher-VirtualBox kernel: [450493.045947] br_icsnet: port 5(veth4baffbf) entered disabled state
+Dec 19 22:53:59 smasher-VirtualBox kernel: [450493.047219] device veth4baffbf left promiscuous mode
+Dec 19 22:53:59 smasher-VirtualBox kernel: [450493.047221] br_icsnet: port 5(veth4baffbf) entered disabled state
+Dec 19 22:53:59 smasher-VirtualBox avahi-daemon[543]: Withdrawing address record for fe80::5c76:ff:fe7b:56d0 on veth4baffbf.
+Dec 19 22:53:59 smasher-VirtualBox gnome-shell[2688]: Removing a network device that was not added
+Dec 19 22:53:59 smasher-VirtualBox gnome-shell[2688]: Removing a network device that was not added
+Dec 19 22:53:59 smasher-VirtualBox systemd[1]: run-docker-netns-41b30789b3e8.mount: Succeeded.
+Dec 19 22:53:59 smasher-VirtualBox systemd[2499]: run-docker-netns-41b30789b3e8.mount: Succeeded.
+Dec 19 22:53:59 smasher-VirtualBox systemd[1]: var-lib-docker-overlay2-5498b278e653fa20ed086fd07f4eaacc33543ec0b71da4be3bca50d0b94a4d91-merged.mount: Succeeded.
+Dec 19 22:53:59 smasher-VirtualBox systemd[2499]: var-lib-docker-overlay2-5498b278e653fa20ed086fd07f4eaacc33543ec0b71da4be3bca50d0b94a4d91-merged.mount: Succeeded.
+Dec 19 22:53:59 smasher-VirtualBox avahi-daemon[543]: Interface br_phynet.IPv6 no longer relevant for mDNS.
+Dec 19 22:53:59 smasher-VirtualBox avahi-daemon[543]: Leaving mDNS multicast group on interface br_phynet.IPv6 with address fe80::42:93ff:feab:3840.
+Dec 19 22:53:59 smasher-VirtualBox avahi-daemon[543]: Interface br_phynet.IPv4 no longer relevant for mDNS.
+Dec 19 22:53:59 smasher-VirtualBox avahi-daemon[543]: Leaving mDNS multicast group on interface br_phynet.IPv4 with address 192.168.1.1.
+Dec 19 22:53:59 smasher-VirtualBox avahi-daemon[543]: Withdrawing address record for fe80::42:93ff:feab:3840 on br_phynet.
+Dec 19 22:53:59 smasher-VirtualBox avahi-daemon[543]: Withdrawing address record for 192.168.1.1 on br_phynet.
+Dec 19 22:53:59 smasher-VirtualBox NetworkManager[547]: <info>  [1734620039.6654] device (br_phynet): state change: activated -> unmanaged (reason 'unmanaged', sys-iface-state: 'removed')
+Dec 19 22:53:59 smasher-VirtualBox gnome-shell[2688]: Removing a network device that was not added
+Dec 19 22:53:59 smasher-VirtualBox dbus-daemon[546]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.13' (uid=0 pid=547 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Dec 19 22:53:59 smasher-VirtualBox systemd[1]: Starting Network Manager Script Dispatcher Service...
+Dec 19 22:53:59 smasher-VirtualBox dbus-daemon[546]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Dec 19 22:53:59 smasher-VirtualBox systemd[1]: Started Network Manager Script Dispatcher Service.
+Dec 19 22:53:59 smasher-VirtualBox nm-dispatcher[766589]: run-parts: failed to stat component /etc/network/if-post-down.d/avahi-daemon: No such file or directory
+Dec 19 22:53:59 smasher-VirtualBox avahi-daemon[543]: Interface br_icsnet.IPv6 no longer relevant for mDNS.
+Dec 19 22:53:59 smasher-VirtualBox avahi-daemon[543]: Leaving mDNS multicast group on interface br_icsnet.IPv6 with address fe80::42:56ff:fefd:9671.
+Dec 19 22:53:59 smasher-VirtualBox avahi-daemon[543]: Interface br_icsnet.IPv4 no longer relevant for mDNS.
+Dec 19 22:53:59 smasher-VirtualBox avahi-daemon[543]: Leaving mDNS multicast group on interface br_icsnet.IPv4 with address 192.168.0.1.
+Dec 19 22:53:59 smasher-VirtualBox avahi-daemon[543]: Withdrawing address record for fe80::42:56ff:fefd:9671 on br_icsnet.
+Dec 19 22:53:59 smasher-VirtualBox avahi-daemon[543]: Withdrawing address record for 192.168.0.1 on br_icsnet.
+Dec 19 22:53:59 smasher-VirtualBox NetworkManager[547]: <info>  [1734620039.7465] device (br_icsnet): state change: activated -> unmanaged (reason 'unmanaged', sys-iface-state: 'removed')
+Dec 19 22:53:59 smasher-VirtualBox gnome-shell[2688]: Removing a network device that was not added
+Dec 19 22:53:59 smasher-VirtualBox nm-dispatcher[766619]: run-parts: failed to stat component /etc/network/if-post-down.d/avahi-daemon: No such file or directory
+Dec 19 22:54:03 smasher-VirtualBox systemd[1]: var-lib-docker-tmp-buildkit\x2dmount157747069.mount: Succeeded.
+Dec 19 22:54:03 smasher-VirtualBox systemd[2499]: var-lib-docker-tmp-buildkit\x2dmount157747069.mount: Succeeded.
+Dec 19 22:54:03 smasher-VirtualBox systemd[1]: var-lib-docker-tmp-buildkit\x2dmount476527424.mount: Succeeded.
+Dec 19 22:54:03 smasher-VirtualBox systemd[1]: var-lib-docker-tmp-buildkit\x2dmount934149610.mount: Succeeded.
+Dec 19 22:54:03 smasher-VirtualBox systemd[1]: var-lib-docker-tmp-buildkit\x2dmount1574244350.mount: Succeeded.
+Dec 19 22:54:03 smasher-VirtualBox systemd[2499]: var-lib-docker-tmp-buildkit\x2dmount934149610.mount: Succeeded.
+Dec 19 22:54:03 smasher-VirtualBox systemd[1]: var-lib-docker-tmp-buildkit\x2dmount3774982703.mount: Succeeded.
+Dec 19 22:54:03 smasher-VirtualBox systemd[2499]: var-lib-docker-tmp-buildkit\x2dmount3774982703.mount: Succeeded.
+Dec 19 22:54:03 smasher-VirtualBox systemd[1]: var-lib-docker-tmp-buildkit\x2dmount896911920.mount: Succeeded.
+Dec 19 22:54:03 smasher-VirtualBox systemd[2499]: var-lib-docker-tmp-buildkit\x2dmount896911920.mount: Succeeded.
+Dec 19 22:54:03 smasher-VirtualBox systemd[1]: var-lib-docker-tmp-buildkit\x2dmount2192162616.mount: Succeeded.
+Dec 19 22:54:03 smasher-VirtualBox systemd[2499]: var-lib-docker-tmp-buildkit\x2dmount2192162616.mount: Succeeded.
+Dec 19 22:54:03 smasher-VirtualBox systemd[1]: var-lib-docker-tmp-buildkit\x2dmount3836853697.mount: Succeeded.
+Dec 19 22:54:03 smasher-VirtualBox systemd[2499]: var-lib-docker-tmp-buildkit\x2dmount3836853697.mount: Succeeded.
+Dec 19 22:54:03 smasher-VirtualBox systemd[1]: var-lib-docker-tmp-buildkit\x2dmount3880194488.mount: Succeeded.
+Dec 19 22:54:03 smasher-VirtualBox systemd[2499]: var-lib-docker-tmp-buildkit\x2dmount3880194488.mount: Succeeded.
+Dec 19 22:54:03 smasher-VirtualBox systemd[1]: var-lib-docker-tmp-buildkit\x2dmount946334266.mount: Succeeded.
+Dec 19 22:54:03 smasher-VirtualBox systemd[2499]: var-lib-docker-tmp-buildkit\x2dmount946334266.mount: Succeeded.
+Dec 19 22:54:04 smasher-VirtualBox systemd[1]: var-lib-docker-tmp-buildkit\x2dmount5730903.mount: Succeeded.
+Dec 19 22:54:04 smasher-VirtualBox systemd[2499]: var-lib-docker-tmp-buildkit\x2dmount5730903.mount: Succeeded.
+Dec 19 22:54:04 smasher-VirtualBox systemd[1]: var-lib-docker-tmp-buildkit\x2dmount3926658285.mount: Succeeded.
+Dec 19 22:54:04 smasher-VirtualBox systemd[1]: var-lib-docker-tmp-buildkit\x2dmount2720200109.mount: Succeeded.
+Dec 19 22:54:04 smasher-VirtualBox systemd[2499]: var-lib-docker-tmp-buildkit\x2dmount2720200109.mount: Succeeded.
+Dec 19 22:54:04 smasher-VirtualBox systemd[1]: var-lib-docker-tmp-buildkit\x2dmount1817573152.mount: Succeeded.
+Dec 19 22:54:04 smasher-VirtualBox systemd[2499]: var-lib-docker-tmp-buildkit\x2dmount1817573152.mount: Succeeded.
+Dec 19 22:54:04 smasher-VirtualBox systemd[1]: var-lib-docker-tmp-buildkit\x2dmount898377749.mount: Succeeded.
+Dec 19 22:54:04 smasher-VirtualBox systemd[2499]: var-lib-docker-tmp-buildkit\x2dmount898377749.mount: Succeeded.
+Dec 19 22:54:04 smasher-VirtualBox systemd[1]: var-lib-docker-tmp-buildkit\x2dmount1334053896.mount: Succeeded.
+Dec 19 22:54:04 smasher-VirtualBox systemd[2499]: var-lib-docker-tmp-buildkit\x2dmount1334053896.mount: Succeeded.
+Dec 19 22:54:04 smasher-VirtualBox systemd[1]: var-lib-docker-tmp-buildkit\x2dmount2051426329.mount: Succeeded.
+Dec 19 22:54:04 smasher-VirtualBox systemd[2499]: var-lib-docker-tmp-buildkit\x2dmount2051426329.mount: Succeeded.
+Dec 19 22:54:04 smasher-VirtualBox systemd[1]: var-lib-docker-tmp-buildkit\x2dmount135078254.mount: Succeeded.
+Dec 19 22:54:05 smasher-VirtualBox systemd[1]: var-lib-docker-tmp-buildkit\x2dmount2169320098.mount: Succeeded.
+Dec 19 22:54:05 smasher-VirtualBox systemd[2499]: var-lib-docker-tmp-buildkit\x2dmount2169320098.mount: Succeeded.
+Dec 19 22:54:05 smasher-VirtualBox systemd[1]: var-lib-docker-tmp-buildkit\x2dmount2638264809.mount: Succeeded.
+Dec 19 22:54:05 smasher-VirtualBox systemd[2499]: var-lib-docker-tmp-buildkit\x2dmount2638264809.mount: Succeeded.
+Dec 19 22:54:05 smasher-VirtualBox systemd[1]: var-lib-docker-tmp-buildkit\x2dmount2722219166.mount: Succeeded.
+Dec 19 22:54:05 smasher-VirtualBox systemd[2499]: var-lib-docker-tmp-buildkit\x2dmount2722219166.mount: Succeeded.
+Dec 19 22:54:05 smasher-VirtualBox systemd[1]: var-lib-docker-tmp-buildkit\x2dmount275748353.mount: Succeeded.
+Dec 19 22:54:05 smasher-VirtualBox systemd[2499]: var-lib-docker-tmp-buildkit\x2dmount275748353.mount: Succeeded.
+Dec 19 22:54:05 smasher-VirtualBox systemd[1]: var-lib-docker-tmp-buildkit\x2dmount173224674.mount: Succeeded.
+Dec 19 22:54:05 smasher-VirtualBox systemd[1]: var-lib-docker-tmp-buildkit\x2dmount1257493050.mount: Succeeded.
+Dec 19 22:54:05 smasher-VirtualBox systemd[1]: var-lib-docker-tmp-buildkit\x2dmount2127911842.mount: Succeeded.
+Dec 19 22:54:05 smasher-VirtualBox systemd[2499]: var-lib-docker-tmp-buildkit\x2dmount173224674.mount: Succeeded.
+Dec 19 22:54:05 smasher-VirtualBox systemd[2499]: var-lib-docker-tmp-buildkit\x2dmount1257493050.mount: Succeeded.
+Dec 19 22:54:05 smasher-VirtualBox systemd[1]: var-lib-docker-tmp-buildkit\x2dmount1064978821.mount: Succeeded.
+Dec 19 22:54:05 smasher-VirtualBox systemd[2499]: var-lib-docker-tmp-buildkit\x2dmount1064978821.mount: Succeeded.
+Dec 19 22:54:05 smasher-VirtualBox systemd[1]: var-lib-docker-tmp-buildkit\x2dmount4138856437.mount: Succeeded.
+Dec 19 22:54:05 smasher-VirtualBox systemd[2499]: var-lib-docker-tmp-buildkit\x2dmount4138856437.mount: Succeeded.
+Dec 19 22:54:08 smasher-VirtualBox systemd-udevd[766858]: Using default interface naming scheme 'v245'.
+Dec 19 22:54:08 smasher-VirtualBox NetworkManager[547]: <info>  [1734620048.8933] manager: (br_icsnet): new Bridge device (/org/freedesktop/NetworkManager/Devices/389)
+Dec 19 22:54:08 smasher-VirtualBox rygel[2939]: Got new address for device 276 but device is not active
+Dec 19 22:54:08 smasher-VirtualBox systemd-udevd[766858]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Dec 19 22:54:08 smasher-VirtualBox NetworkManager[547]: <info>  [1734620048.9374] device (br_icsnet): state change: unmanaged -> unavailable (reason 'connection-assumed', sys-iface-state: 'external')
+Dec 19 22:54:08 smasher-VirtualBox avahi-daemon[543]: Joining mDNS multicast group on interface br_icsnet.IPv4 with address 192.168.0.1.
+Dec 19 22:54:08 smasher-VirtualBox NetworkManager[547]: <info>  [1734620048.9420] device (br_icsnet): state change: unavailable -> disconnected (reason 'connection-assumed', sys-iface-state: 'external')
+Dec 19 22:54:08 smasher-VirtualBox NetworkManager[547]: <info>  [1734620048.9449] device (br_icsnet): Activation: starting connection 'br_icsnet' (a9b70150-6885-49b0-87c1-d886ba778ea8)
+Dec 19 22:54:08 smasher-VirtualBox NetworkManager[547]: <info>  [1734620048.9481] device (br_icsnet): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'external')
+Dec 19 22:54:08 smasher-VirtualBox NetworkManager[547]: <info>  [1734620048.9493] device (br_icsnet): state change: prepare -> config (reason 'none', sys-iface-state: 'external')
+Dec 19 22:54:08 smasher-VirtualBox NetworkManager[547]: <info>  [1734620048.9503] device (br_icsnet): state change: config -> ip-config (reason 'none', sys-iface-state: 'external')
+Dec 19 22:54:08 smasher-VirtualBox NetworkManager[547]: <info>  [1734620048.9519] device (br_icsnet): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'external')
+Dec 19 22:54:08 smasher-VirtualBox avahi-daemon[543]: New relevant interface br_icsnet.IPv4 for mDNS.
+Dec 19 22:54:08 smasher-VirtualBox avahi-daemon[543]: Registering new address record for 192.168.0.1 on br_icsnet.IPv4.
+Dec 19 22:54:08 smasher-VirtualBox NetworkManager[547]: <info>  [1734620048.9596] device (br_icsnet): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'external')
+Dec 19 22:54:08 smasher-VirtualBox NetworkManager[547]: <info>  [1734620048.9614] device (br_icsnet): state change: secondaries -> activated (reason 'none', sys-iface-state: 'external')
+Dec 19 22:54:08 smasher-VirtualBox NetworkManager[547]: <info>  [1734620048.9628] device (br_icsnet): Activation: successful, device activated.
+Dec 19 22:54:09 smasher-VirtualBox dockerd[770]: time="2024-12-19T22:54:09.021153032+08:00" level=error msg="Error handling plugin refcount operation" driver= error="legacy plugin: Unable to find plugin without name" mode=1
+Dec 19 22:54:09 smasher-VirtualBox NetworkManager[547]: <info>  [1734620049.0234] manager: (br_phynet): new Bridge device (/org/freedesktop/NetworkManager/Devices/390)
+Dec 19 22:54:09 smasher-VirtualBox rygel[2939]: Got new address for device 277 but device is not active
+Dec 19 22:54:09 smasher-VirtualBox systemd-udevd[766858]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Dec 19 22:54:09 smasher-VirtualBox NetworkManager[547]: <info>  [1734620049.0724] device (br_phynet): state change: unmanaged -> unavailable (reason 'connection-assumed', sys-iface-state: 'external')
+Dec 19 22:54:09 smasher-VirtualBox avahi-daemon[543]: Joining mDNS multicast group on interface br_phynet.IPv4 with address 192.168.1.1.
+Dec 19 22:54:09 smasher-VirtualBox NetworkManager[547]: <info>  [1734620049.0733] device (br_phynet): state change: unavailable -> disconnected (reason 'connection-assumed', sys-iface-state: 'external')
+Dec 19 22:54:09 smasher-VirtualBox NetworkManager[547]: <info>  [1734620049.0779] device (br_phynet): Activation: starting connection 'br_phynet' (cb3402c5-e47a-422f-92cd-39cb01d8430b)
+Dec 19 22:54:09 smasher-VirtualBox NetworkManager[547]: <info>  [1734620049.0807] device (br_phynet): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'external')
+Dec 19 22:54:09 smasher-VirtualBox NetworkManager[547]: <info>  [1734620049.0825] device (br_phynet): state change: prepare -> config (reason 'none', sys-iface-state: 'external')
+Dec 19 22:54:09 smasher-VirtualBox NetworkManager[547]: <info>  [1734620049.0847] device (br_phynet): state change: config -> ip-config (reason 'none', sys-iface-state: 'external')
+Dec 19 22:54:09 smasher-VirtualBox NetworkManager[547]: <info>  [1734620049.0861] device (br_phynet): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'external')
+Dec 19 22:54:09 smasher-VirtualBox NetworkManager[547]: <info>  [1734620049.0898] device (br_phynet): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'external')
+Dec 19 22:54:09 smasher-VirtualBox NetworkManager[547]: <info>  [1734620049.0910] device (br_phynet): state change: secondaries -> activated (reason 'none', sys-iface-state: 'external')
+Dec 19 22:54:09 smasher-VirtualBox NetworkManager[547]: <info>  [1734620049.0915] device (br_phynet): Activation: successful, device activated.
+Dec 19 22:54:09 smasher-VirtualBox avahi-daemon[543]: New relevant interface br_phynet.IPv4 for mDNS.
+Dec 19 22:54:09 smasher-VirtualBox avahi-daemon[543]: Registering new address record for 192.168.1.1 on br_phynet.IPv4.
+Dec 19 22:54:09 smasher-VirtualBox dockerd[770]: time="2024-12-19T22:54:09.132017002+08:00" level=error msg="Error handling plugin refcount operation" driver= error="legacy plugin: Unable to find plugin without name" mode=1
+Dec 19 22:54:09 smasher-VirtualBox systemd[1]: var-lib-docker-overlay2-fb2e8e17d6dca7da06c2af5dbbfe522631cf8cf71f6cbedd922429799c9246b0\x2dinit-merged.mount: Succeeded.
+Dec 19 22:54:09 smasher-VirtualBox systemd[2499]: var-lib-docker-overlay2-fb2e8e17d6dca7da06c2af5dbbfe522631cf8cf71f6cbedd922429799c9246b0\x2dinit-merged.mount: Succeeded.
+Dec 19 22:54:09 smasher-VirtualBox systemd[1]: var-lib-docker-overlay2-c2ce77b041c075e34c41b1380afce40394c33990afc2e52c7600c2683b219170\x2dinit-merged.mount: Succeeded.
+Dec 19 22:54:09 smasher-VirtualBox systemd[1]: var-lib-docker-overlay2-5839d813219b130cf8eb40e397ec4fe1c15a42c1ba625154ed23335a7d9dc559\x2dinit-merged.mount: Succeeded.
+Dec 19 22:54:09 smasher-VirtualBox systemd[1]: var-lib-docker-overlay2-9a74b7588f5b456971eb559ca24510563d7ce64f7547a864064aee5161dcc9b7\x2dinit-merged.mount: Succeeded.
+Dec 19 22:54:09 smasher-VirtualBox systemd[1]: var-lib-docker-overlay2-df8c4e6edf3bd67e5b44b0b2b15273379d29225ad81ce7bf31ae156e89cfefca\x2dinit-merged.mount: Succeeded.
+Dec 19 22:54:09 smasher-VirtualBox systemd[2499]: var-lib-docker-overlay2-9a74b7588f5b456971eb559ca24510563d7ce64f7547a864064aee5161dcc9b7\x2dinit-merged.mount: Succeeded.
+Dec 19 22:54:09 smasher-VirtualBox systemd[2499]: var-lib-docker-overlay2-df8c4e6edf3bd67e5b44b0b2b15273379d29225ad81ce7bf31ae156e89cfefca\x2dinit-merged.mount: Succeeded.
+Dec 19 22:54:09 smasher-VirtualBox systemd[2499]: var-lib-docker-overlay2-c2ce77b041c075e34c41b1380afce40394c33990afc2e52c7600c2683b219170\x2dinit-merged.mount: Succeeded.
+Dec 19 22:54:09 smasher-VirtualBox systemd[1]: var-lib-docker-overlay2-d9f59348fa1b24c0395134711d312f3ec5e45e8419598a656ee9d36cb8fa405f\x2dinit-merged.mount: Succeeded.
+Dec 19 22:54:09 smasher-VirtualBox systemd[1]: var-lib-docker-overlay2-534e8a05b092a54151c937935a641483b0a426d4af983f7fdb4ff7f0a37615fc\x2dinit-merged.mount: Succeeded.
+Dec 19 22:54:09 smasher-VirtualBox systemd[1]: var-lib-docker-overlay2-82de45dbf2fe868534638b754b006c30dd90f115b1e1390b8c4664961245c2db\x2dinit-merged.mount: Succeeded.
+Dec 19 22:54:09 smasher-VirtualBox systemd[2499]: var-lib-docker-overlay2-534e8a05b092a54151c937935a641483b0a426d4af983f7fdb4ff7f0a37615fc\x2dinit-merged.mount: Succeeded.
+Dec 19 22:54:09 smasher-VirtualBox systemd[2499]: var-lib-docker-overlay2-d9f59348fa1b24c0395134711d312f3ec5e45e8419598a656ee9d36cb8fa405f\x2dinit-merged.mount: Succeeded.
+Dec 19 22:54:09 smasher-VirtualBox systemd[2499]: var-lib-docker-overlay2-82de45dbf2fe868534638b754b006c30dd90f115b1e1390b8c4664961245c2db\x2dinit-merged.mount: Succeeded.
+Dec 19 22:54:09 smasher-VirtualBox systemd[1]: var-lib-docker-overlay2-d99508041cac333e0a15aebb9a9e2eea4ab2a5cce59e7aaa1a63d34d14abe635\x2dinit-merged.mount: Succeeded.
+Dec 19 22:54:09 smasher-VirtualBox systemd[2499]: var-lib-docker-overlay2-d99508041cac333e0a15aebb9a9e2eea4ab2a5cce59e7aaa1a63d34d14abe635\x2dinit-merged.mount: Succeeded.
+Dec 19 22:54:09 smasher-VirtualBox systemd[1]: var-lib-docker-overlay2-d9f59348fa1b24c0395134711d312f3ec5e45e8419598a656ee9d36cb8fa405f-merged.mount: Succeeded.
+Dec 19 22:54:09 smasher-VirtualBox systemd[1]: var-lib-docker-overlay2-03e75df75bf8cb23b0a106d4242d71790294e4e73f2458e0611d3df9bf004e79\x2dinit-merged.mount: Succeeded.
+Dec 19 22:54:09 smasher-VirtualBox systemd[1]: var-lib-docker-overlay2-df8c4e6edf3bd67e5b44b0b2b15273379d29225ad81ce7bf31ae156e89cfefca-merged.mount: Succeeded.
+Dec 19 22:54:09 smasher-VirtualBox systemd[2499]: var-lib-docker-overlay2-df8c4e6edf3bd67e5b44b0b2b15273379d29225ad81ce7bf31ae156e89cfefca-merged.mount: Succeeded.
+Dec 19 22:54:09 smasher-VirtualBox systemd[2499]: var-lib-docker-overlay2-03e75df75bf8cb23b0a106d4242d71790294e4e73f2458e0611d3df9bf004e79\x2dinit-merged.mount: Succeeded.
+Dec 19 22:54:09 smasher-VirtualBox systemd[1]: var-lib-docker-overlay2-82de45dbf2fe868534638b754b006c30dd90f115b1e1390b8c4664961245c2db-merged.mount: Succeeded.
+Dec 19 22:54:09 smasher-VirtualBox systemd[1]: var-lib-docker-overlay2-9a74b7588f5b456971eb559ca24510563d7ce64f7547a864064aee5161dcc9b7-merged.mount: Succeeded.
+Dec 19 22:54:09 smasher-VirtualBox systemd[1]: var-lib-docker-overlay2-534e8a05b092a54151c937935a641483b0a426d4af983f7fdb4ff7f0a37615fc-merged.mount: Succeeded.
+Dec 19 22:54:09 smasher-VirtualBox systemd[2499]: var-lib-docker-overlay2-82de45dbf2fe868534638b754b006c30dd90f115b1e1390b8c4664961245c2db-merged.mount: Succeeded.
+Dec 19 22:54:09 smasher-VirtualBox systemd[1]: var-lib-docker-overlay2-fb2e8e17d6dca7da06c2af5dbbfe522631cf8cf71f6cbedd922429799c9246b0-merged.mount: Succeeded.
+Dec 19 22:54:09 smasher-VirtualBox systemd[2499]: var-lib-docker-overlay2-fb2e8e17d6dca7da06c2af5dbbfe522631cf8cf71f6cbedd922429799c9246b0-merged.mount: Succeeded.
+Dec 19 22:54:09 smasher-VirtualBox systemd[1]: var-lib-docker-overlay2-5839d813219b130cf8eb40e397ec4fe1c15a42c1ba625154ed23335a7d9dc559-merged.mount: Succeeded.
+Dec 19 22:54:09 smasher-VirtualBox systemd[1]: var-lib-docker-overlay2-03e75df75bf8cb23b0a106d4242d71790294e4e73f2458e0611d3df9bf004e79-merged.mount: Succeeded.
+Dec 19 22:54:09 smasher-VirtualBox systemd[1]: var-lib-docker-overlay2-d99508041cac333e0a15aebb9a9e2eea4ab2a5cce59e7aaa1a63d34d14abe635-merged.mount: Succeeded.
+Dec 19 22:54:09 smasher-VirtualBox systemd[2499]: var-lib-docker-overlay2-03e75df75bf8cb23b0a106d4242d71790294e4e73f2458e0611d3df9bf004e79-merged.mount: Succeeded.
+Dec 19 22:54:09 smasher-VirtualBox systemd[1]: var-lib-docker-overlay2-c2ce77b041c075e34c41b1380afce40394c33990afc2e52c7600c2683b219170-merged.mount: Succeeded.
+Dec 19 22:54:09 smasher-VirtualBox systemd[2499]: var-lib-docker-overlay2-c2ce77b041c075e34c41b1380afce40394c33990afc2e52c7600c2683b219170-merged.mount: Succeeded.
+Dec 19 22:54:09 smasher-VirtualBox NetworkManager[547]: <info>  [1734620049.7553] manager: (veth24d9cf4): new Veth device (/org/freedesktop/NetworkManager/Devices/391)
+Dec 19 22:54:09 smasher-VirtualBox NetworkManager[547]: <info>  [1734620049.7556] manager: (veth53fc3d7): new Veth device (/org/freedesktop/NetworkManager/Devices/392)
+Dec 19 22:54:09 smasher-VirtualBox systemd-udevd[766858]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Dec 19 22:54:09 smasher-VirtualBox systemd-udevd[766858]: veth24d9cf4: Could not generate persistent MAC: No data available
+Dec 19 22:54:09 smasher-VirtualBox systemd-udevd[766866]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Dec 19 22:54:09 smasher-VirtualBox systemd-udevd[766866]: Using default interface naming scheme 'v245'.
+Dec 19 22:54:09 smasher-VirtualBox systemd-udevd[766866]: veth53fc3d7: Could not generate persistent MAC: No data available
+Dec 19 22:54:09 smasher-VirtualBox kernel: [450503.319425] br_icsnet: port 1(veth53fc3d7) entered blocking state
+Dec 19 22:54:09 smasher-VirtualBox kernel: [450503.319428] br_icsnet: port 1(veth53fc3d7) entered disabled state
+Dec 19 22:54:09 smasher-VirtualBox kernel: [450503.321311] device veth53fc3d7 entered promiscuous mode
+Dec 19 22:54:09 smasher-VirtualBox kernel: [450503.321684] br_icsnet: port 1(veth53fc3d7) entered blocking state
+Dec 19 22:54:09 smasher-VirtualBox kernel: [450503.321686] br_icsnet: port 1(veth53fc3d7) entered forwarding state
+Dec 19 22:54:09 smasher-VirtualBox kernel: [450503.321705] br_icsnet: port 1(veth53fc3d7) entered disabled state
+Dec 19 22:54:09 smasher-VirtualBox NetworkManager[547]: <info>  [1734620049.8438] manager: (veth8e5a394): new Veth device (/org/freedesktop/NetworkManager/Devices/393)
+Dec 19 22:54:09 smasher-VirtualBox NetworkManager[547]: <info>  [1734620049.8441] manager: (veth4338abd): new Veth device (/org/freedesktop/NetworkManager/Devices/394)
+Dec 19 22:54:09 smasher-VirtualBox kernel: [450503.358781] br_phynet: port 1(veth4338abd) entered blocking state
+Dec 19 22:54:09 smasher-VirtualBox kernel: [450503.358784] br_phynet: port 1(veth4338abd) entered disabled state
+Dec 19 22:54:09 smasher-VirtualBox systemd-udevd[766858]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Dec 19 22:54:09 smasher-VirtualBox systemd-udevd[766858]: veth8e5a394: Could not generate persistent MAC: No data available
+Dec 19 22:54:09 smasher-VirtualBox systemd-udevd[767003]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Dec 19 22:54:09 smasher-VirtualBox systemd-udevd[767003]: Using default interface naming scheme 'v245'.
+Dec 19 22:54:09 smasher-VirtualBox systemd-udevd[767003]: veth4338abd: Could not generate persistent MAC: No data available
+Dec 19 22:54:09 smasher-VirtualBox kernel: [450503.363104] device veth4338abd entered promiscuous mode
+Dec 19 22:54:09 smasher-VirtualBox kernel: [450503.369525] br_phynet: port 1(veth4338abd) entered blocking state
+Dec 19 22:54:09 smasher-VirtualBox kernel: [450503.369527] br_phynet: port 1(veth4338abd) entered forwarding state
+Dec 19 22:54:09 smasher-VirtualBox kernel: [450503.369544] IPv6: ADDRCONF(NETDEV_CHANGE): br_phynet: link becomes ready
+Dec 19 22:54:09 smasher-VirtualBox kernel: [450503.369579] br_phynet: port 1(veth4338abd) entered disabled state
+Dec 19 22:54:09 smasher-VirtualBox NetworkManager[547]: <info>  [1734620049.8722] manager: (vethaa63e36): new Veth device (/org/freedesktop/NetworkManager/Devices/395)
+Dec 19 22:54:09 smasher-VirtualBox NetworkManager[547]: <info>  [1734620049.8725] manager: (veth4feb3a3): new Veth device (/org/freedesktop/NetworkManager/Devices/396)
+Dec 19 22:54:09 smasher-VirtualBox kernel: [450503.386687] br_icsnet: port 2(veth4feb3a3) entered blocking state
+Dec 19 22:54:09 smasher-VirtualBox kernel: [450503.386689] br_icsnet: port 2(veth4feb3a3) entered disabled state
+Dec 19 22:54:09 smasher-VirtualBox kernel: [450503.389579] device veth4feb3a3 entered promiscuous mode
+Dec 19 22:54:09 smasher-VirtualBox kernel: [450503.389847] br_icsnet: port 2(veth4feb3a3) entered blocking state
+Dec 19 22:54:09 smasher-VirtualBox kernel: [450503.390055] br_icsnet: port 2(veth4feb3a3) entered forwarding state
+Dec 19 22:54:09 smasher-VirtualBox kernel: [450503.390089] IPv6: ADDRCONF(NETDEV_CHANGE): br_icsnet: link becomes ready
+Dec 19 22:54:09 smasher-VirtualBox kernel: [450503.390117] br_icsnet: port 2(veth4feb3a3) entered disabled state
+Dec 19 22:54:09 smasher-VirtualBox systemd-udevd[766866]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Dec 19 22:54:09 smasher-VirtualBox systemd-udevd[766866]: vethaa63e36: Could not generate persistent MAC: No data available
+Dec 19 22:54:09 smasher-VirtualBox NetworkManager[547]: <info>  [1734620049.9096] manager: (vethbdd90b0): new Veth device (/org/freedesktop/NetworkManager/Devices/397)
+Dec 19 22:54:09 smasher-VirtualBox NetworkManager[547]: <info>  [1734620049.9100] manager: (veth43628a0): new Veth device (/org/freedesktop/NetworkManager/Devices/398)
+Dec 19 22:54:09 smasher-VirtualBox systemd-udevd[766858]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Dec 19 22:54:09 smasher-VirtualBox kernel: [450503.425068] br_phynet: port 2(veth43628a0) entered blocking state
+Dec 19 22:54:09 smasher-VirtualBox kernel: [450503.425070] br_phynet: port 2(veth43628a0) entered disabled state
+Dec 19 22:54:09 smasher-VirtualBox dockerd[770]: time="2024-12-19T22:54:09.926202152+08:00" level=info msg="No non-localhost DNS nameservers are left in resolv.conf. Using default external servers"
+Dec 19 22:54:09 smasher-VirtualBox kernel: [450503.429842] device veth43628a0 entered promiscuous mode
+Dec 19 22:54:09 smasher-VirtualBox systemd-udevd[766858]: vethbdd90b0: Could not generate persistent MAC: No data available
+Dec 19 22:54:09 smasher-VirtualBox kernel: [450503.432367] br_phynet: port 2(veth43628a0) entered blocking state
+Dec 19 22:54:09 smasher-VirtualBox kernel: [450503.432369] br_phynet: port 2(veth43628a0) entered forwarding state
+Dec 19 22:54:09 smasher-VirtualBox kernel: [450503.432547] br_phynet: port 2(veth43628a0) entered disabled state
+Dec 19 22:54:09 smasher-VirtualBox systemd-udevd[767003]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Dec 19 22:54:09 smasher-VirtualBox systemd-udevd[767003]: veth43628a0: Could not generate persistent MAC: No data available
+Dec 19 22:54:09 smasher-VirtualBox systemd-udevd[767010]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Dec 19 22:54:09 smasher-VirtualBox systemd-udevd[767010]: Using default interface naming scheme 'v245'.
+Dec 19 22:54:09 smasher-VirtualBox systemd-udevd[767010]: veth4feb3a3: Could not generate persistent MAC: No data available
+Dec 19 22:54:09 smasher-VirtualBox NetworkManager[547]: <info>  [1734620049.9933] manager: (veth25cef95): new Veth device (/org/freedesktop/NetworkManager/Devices/399)
+Dec 19 22:54:09 smasher-VirtualBox NetworkManager[547]: <info>  [1734620049.9939] manager: (veth7ec1588): new Veth device (/org/freedesktop/NetworkManager/Devices/400)
+Dec 19 22:54:10 smasher-VirtualBox kernel: [450503.508756] br_icsnet: port 3(veth7ec1588) entered blocking state
+Dec 19 22:54:10 smasher-VirtualBox kernel: [450503.508759] br_icsnet: port 3(veth7ec1588) entered disabled state
+Dec 19 22:54:10 smasher-VirtualBox kernel: [450503.513137] device veth7ec1588 entered promiscuous mode
+Dec 19 22:54:10 smasher-VirtualBox systemd-udevd[767010]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Dec 19 22:54:10 smasher-VirtualBox systemd-udevd[767010]: veth7ec1588: Could not generate persistent MAC: No data available
+Dec 19 22:54:10 smasher-VirtualBox systemd-udevd[766858]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Dec 19 22:54:10 smasher-VirtualBox systemd-udevd[766858]: veth25cef95: Could not generate persistent MAC: No data available
+Dec 19 22:54:10 smasher-VirtualBox dockerd[770]: time="2024-12-19T22:54:10.022039799+08:00" level=info msg="No non-localhost DNS nameservers are left in resolv.conf. Using default external servers"
+Dec 19 22:54:10 smasher-VirtualBox kernel: [450503.522913] br_icsnet: port 3(veth7ec1588) entered blocking state
+Dec 19 22:54:10 smasher-VirtualBox kernel: [450503.522916] br_icsnet: port 3(veth7ec1588) entered forwarding state
+Dec 19 22:54:10 smasher-VirtualBox kernel: [450503.522943] br_icsnet: port 3(veth7ec1588) entered disabled state
+Dec 19 22:54:10 smasher-VirtualBox dockerd[770]: time="2024-12-19T22:54:10.037545594+08:00" level=info msg="No non-localhost DNS nameservers are left in resolv.conf. Using default external servers"
+Dec 19 22:54:10 smasher-VirtualBox dockerd[770]: time="2024-12-19T22:54:10.055157214+08:00" level=info msg="No non-localhost DNS nameservers are left in resolv.conf. Using default external servers"
+Dec 19 22:54:10 smasher-VirtualBox NetworkManager[547]: <info>  [1734620050.1259] manager: (veth44ca9eb): new Veth device (/org/freedesktop/NetworkManager/Devices/401)
+Dec 19 22:54:10 smasher-VirtualBox NetworkManager[547]: <info>  [1734620050.1262] manager: (vethd3e03d2): new Veth device (/org/freedesktop/NetworkManager/Devices/402)
+Dec 19 22:54:10 smasher-VirtualBox systemd-udevd[767010]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Dec 19 22:54:10 smasher-VirtualBox systemd-udevd[767010]: vethd3e03d2: Could not generate persistent MAC: No data available
+Dec 19 22:54:10 smasher-VirtualBox systemd-udevd[766858]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Dec 19 22:54:10 smasher-VirtualBox systemd-udevd[766858]: veth44ca9eb: Could not generate persistent MAC: No data available
+Dec 19 22:54:10 smasher-VirtualBox kernel: [450503.655266] br_icsnet: port 4(vethd3e03d2) entered blocking state
+Dec 19 22:54:10 smasher-VirtualBox kernel: [450503.655269] br_icsnet: port 4(vethd3e03d2) entered disabled state
+Dec 19 22:54:10 smasher-VirtualBox kernel: [450503.661127] device vethd3e03d2 entered promiscuous mode
+Dec 19 22:54:10 smasher-VirtualBox dockerd[770]: time="2024-12-19T22:54:10.166543707+08:00" level=info msg="No non-localhost DNS nameservers are left in resolv.conf. Using default external servers"
+Dec 19 22:54:10 smasher-VirtualBox kernel: [450503.667890] br_icsnet: port 4(vethd3e03d2) entered blocking state
+Dec 19 22:54:10 smasher-VirtualBox kernel: [450503.667892] br_icsnet: port 4(vethd3e03d2) entered forwarding state
+Dec 19 22:54:10 smasher-VirtualBox kernel: [450503.667949] br_icsnet: port 4(vethd3e03d2) entered disabled state
+Dec 19 22:54:10 smasher-VirtualBox containerd[654]: time="2024-12-19T22:54:10.243386572+08:00" level=info msg="loading plugin \"io.containerd.event.v1.publisher\"..." runtime=io.containerd.runc.v2 type=io.containerd.event.v1
+Dec 19 22:54:10 smasher-VirtualBox containerd[654]: time="2024-12-19T22:54:10.244232015+08:00" level=info msg="loading plugin \"io.containerd.internal.v1.shutdown\"..." runtime=io.containerd.runc.v2 type=io.containerd.internal.v1
+Dec 19 22:54:10 smasher-VirtualBox containerd[654]: time="2024-12-19T22:54:10.244539523+08:00" level=info msg="loading plugin \"io.containerd.ttrpc.v1.task\"..." runtime=io.containerd.runc.v2 type=io.containerd.ttrpc.v1
+Dec 19 22:54:10 smasher-VirtualBox containerd[654]: time="2024-12-19T22:54:10.244870425+08:00" level=info msg="loading plugin \"io.containerd.ttrpc.v1.pause\"..." runtime=io.containerd.runc.v2 type=io.containerd.ttrpc.v1
+Dec 19 22:54:10 smasher-VirtualBox containerd[654]: time="2024-12-19T22:54:10.245551495+08:00" level=info msg="loading plugin \"io.containerd.event.v1.publisher\"..." runtime=io.containerd.runc.v2 type=io.containerd.event.v1
+Dec 19 22:54:10 smasher-VirtualBox NetworkManager[547]: <info>  [1734620050.2594] manager: (vethc472a41): new Veth device (/org/freedesktop/NetworkManager/Devices/403)
+Dec 19 22:54:10 smasher-VirtualBox NetworkManager[547]: <info>  [1734620050.2598] manager: (vethcd2e7ae): new Veth device (/org/freedesktop/NetworkManager/Devices/404)
+Dec 19 22:54:10 smasher-VirtualBox kernel: [450503.775656] br_icsnet: port 5(vethcd2e7ae) entered blocking state
+Dec 19 22:54:10 smasher-VirtualBox kernel: [450503.775688] br_icsnet: port 5(vethcd2e7ae) entered disabled state
+Dec 19 22:54:10 smasher-VirtualBox kernel: [450503.776920] device vethcd2e7ae entered promiscuous mode
+Dec 19 22:54:10 smasher-VirtualBox systemd-udevd[766858]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Dec 19 22:54:10 smasher-VirtualBox systemd-udevd[766858]: vethc472a41: Could not generate persistent MAC: No data available
+Dec 19 22:54:10 smasher-VirtualBox systemd-udevd[767010]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Dec 19 22:54:10 smasher-VirtualBox systemd-udevd[767010]: vethcd2e7ae: Could not generate persistent MAC: No data available
+Dec 19 22:54:10 smasher-VirtualBox containerd[654]: time="2024-12-19T22:54:10.284325433+08:00" level=info msg="loading plugin \"io.containerd.internal.v1.shutdown\"..." runtime=io.containerd.runc.v2 type=io.containerd.internal.v1
+Dec 19 22:54:10 smasher-VirtualBox kernel: [450503.788415] br_icsnet: port 5(vethcd2e7ae) entered blocking state
+Dec 19 22:54:10 smasher-VirtualBox kernel: [450503.788417] br_icsnet: port 5(vethcd2e7ae) entered forwarding state
+Dec 19 22:54:10 smasher-VirtualBox containerd[654]: time="2024-12-19T22:54:10.290168150+08:00" level=info msg="loading plugin \"io.containerd.ttrpc.v1.task\"..." runtime=io.containerd.runc.v2 type=io.containerd.ttrpc.v1
+Dec 19 22:54:10 smasher-VirtualBox containerd[654]: time="2024-12-19T22:54:10.290235705+08:00" level=info msg="loading plugin \"io.containerd.ttrpc.v1.pause\"..." runtime=io.containerd.runc.v2 type=io.containerd.ttrpc.v1
+Dec 19 22:54:10 smasher-VirtualBox dockerd[770]: time="2024-12-19T22:54:10.379761461+08:00" level=info msg="No non-localhost DNS nameservers are left in resolv.conf. Using default external servers"
+Dec 19 22:54:10 smasher-VirtualBox NetworkManager[547]: <info>  [1734620050.4059] manager: (veth5b9472c): new Veth device (/org/freedesktop/NetworkManager/Devices/405)
+Dec 19 22:54:10 smasher-VirtualBox NetworkManager[547]: <info>  [1734620050.4063] manager: (veth6320846): new Veth device (/org/freedesktop/NetworkManager/Devices/406)
+Dec 19 22:54:10 smasher-VirtualBox kernel: [450503.921554] br_icsnet: port 6(veth6320846) entered blocking state
+Dec 19 22:54:10 smasher-VirtualBox kernel: [450503.921558] br_icsnet: port 6(veth6320846) entered disabled state
+Dec 19 22:54:10 smasher-VirtualBox kernel: [450503.921783] device veth6320846 entered promiscuous mode
+Dec 19 22:54:10 smasher-VirtualBox systemd-udevd[766858]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Dec 19 22:54:10 smasher-VirtualBox systemd-udevd[766858]: veth5b9472c: Could not generate persistent MAC: No data available
+Dec 19 22:54:10 smasher-VirtualBox systemd-udevd[767010]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Dec 19 22:54:10 smasher-VirtualBox systemd-udevd[767010]: veth6320846: Could not generate persistent MAC: No data available
+Dec 19 22:54:10 smasher-VirtualBox kernel: [450503.936789] br_icsnet: port 6(veth6320846) entered blocking state
+Dec 19 22:54:10 smasher-VirtualBox kernel: [450503.936791] br_icsnet: port 6(veth6320846) entered forwarding state
+Dec 19 22:54:10 smasher-VirtualBox dockerd[770]: time="2024-12-19T22:54:10.463307919+08:00" level=info msg="No non-localhost DNS nameservers are left in resolv.conf. Using default external servers"
+Dec 19 22:54:10 smasher-VirtualBox NetworkManager[547]: <info>  [1734620050.5050] manager: (veth6646a27): new Veth device (/org/freedesktop/NetworkManager/Devices/407)
+Dec 19 22:54:10 smasher-VirtualBox NetworkManager[547]: <info>  [1734620050.5054] manager: (vethe12c7a7): new Veth device (/org/freedesktop/NetworkManager/Devices/408)
+Dec 19 22:54:10 smasher-VirtualBox kernel: [450504.006501] br_icsnet: port 7(vethe12c7a7) entered blocking state
+Dec 19 22:54:10 smasher-VirtualBox kernel: [450504.006504] br_icsnet: port 7(vethe12c7a7) entered disabled state
+Dec 19 22:54:10 smasher-VirtualBox kernel: [450504.007861] device vethe12c7a7 entered promiscuous mode
+Dec 19 22:54:10 smasher-VirtualBox systemd-udevd[767010]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Dec 19 22:54:10 smasher-VirtualBox systemd-udevd[767010]: vethe12c7a7: Could not generate persistent MAC: No data available
+Dec 19 22:54:10 smasher-VirtualBox kernel: [450504.025322] br_icsnet: port 7(vethe12c7a7) entered blocking state
+Dec 19 22:54:10 smasher-VirtualBox kernel: [450504.025324] br_icsnet: port 7(vethe12c7a7) entered forwarding state
+Dec 19 22:54:10 smasher-VirtualBox systemd-udevd[766858]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Dec 19 22:54:10 smasher-VirtualBox systemd-udevd[766858]: veth6646a27: Could not generate persistent MAC: No data available
+Dec 19 22:54:10 smasher-VirtualBox dockerd[770]: time="2024-12-19T22:54:10.543861327+08:00" level=info msg="No non-localhost DNS nameservers are left in resolv.conf. Using default external servers"
+Dec 19 22:54:10 smasher-VirtualBox NetworkManager[547]: <info>  [1734620050.6072] manager: (vethaf06879): new Veth device (/org/freedesktop/NetworkManager/Devices/409)
+Dec 19 22:54:10 smasher-VirtualBox NetworkManager[547]: <info>  [1734620050.6076] manager: (veth24a2c76): new Veth device (/org/freedesktop/NetworkManager/Devices/410)
+Dec 19 22:54:10 smasher-VirtualBox kernel: [450504.124729] br_icsnet: port 8(veth24a2c76) entered blocking state
+Dec 19 22:54:10 smasher-VirtualBox kernel: [450504.124732] br_icsnet: port 8(veth24a2c76) entered disabled state
+Dec 19 22:54:10 smasher-VirtualBox kernel: [450504.124847] device veth24a2c76 entered promiscuous mode
+Dec 19 22:54:10 smasher-VirtualBox kernel: [450504.125204] br_icsnet: port 8(veth24a2c76) entered blocking state
+Dec 19 22:54:10 smasher-VirtualBox kernel: [450504.125206] br_icsnet: port 8(veth24a2c76) entered forwarding state
+Dec 19 22:54:10 smasher-VirtualBox systemd-udevd[766858]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Dec 19 22:54:10 smasher-VirtualBox systemd-udevd[766858]: vethaf06879: Could not generate persistent MAC: No data available
+Dec 19 22:54:10 smasher-VirtualBox systemd-udevd[767010]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Dec 19 22:54:10 smasher-VirtualBox systemd-udevd[767010]: veth24a2c76: Could not generate persistent MAC: No data available
+Dec 19 22:54:10 smasher-VirtualBox dockerd[770]: time="2024-12-19T22:54:10.677533243+08:00" level=info msg="No non-localhost DNS nameservers are left in resolv.conf. Using default external servers"
+Dec 19 22:54:10 smasher-VirtualBox NetworkManager[547]: <info>  [1734620050.6851] manager: (vetheaa3cb8): new Veth device (/org/freedesktop/NetworkManager/Devices/411)
+Dec 19 22:54:10 smasher-VirtualBox NetworkManager[547]: <info>  [1734620050.6944] manager: (vethfb6683b): new Veth device (/org/freedesktop/NetworkManager/Devices/412)
+Dec 19 22:54:10 smasher-VirtualBox systemd-udevd[766858]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Dec 19 22:54:10 smasher-VirtualBox systemd-udevd[766858]: vetheaa3cb8: Could not generate persistent MAC: No data available
+Dec 19 22:54:10 smasher-VirtualBox systemd-udevd[767010]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Dec 19 22:54:10 smasher-VirtualBox systemd-udevd[767010]: vethfb6683b: Could not generate persistent MAC: No data available
+Dec 19 22:54:10 smasher-VirtualBox kernel: [450504.226236] br_icsnet: port 9(vethfb6683b) entered blocking state
+Dec 19 22:54:10 smasher-VirtualBox kernel: [450504.226239] br_icsnet: port 9(vethfb6683b) entered disabled state
+Dec 19 22:54:10 smasher-VirtualBox kernel: [450504.230910] device vethfb6683b entered promiscuous mode
+Dec 19 22:54:10 smasher-VirtualBox kernel: [450504.231925] br_icsnet: port 9(vethfb6683b) entered blocking state
+Dec 19 22:54:10 smasher-VirtualBox kernel: [450504.231927] br_icsnet: port 9(vethfb6683b) entered forwarding state
+Dec 19 22:54:10 smasher-VirtualBox containerd[654]: time="2024-12-19T22:54:10.731928310+08:00" level=info msg="loading plugin \"io.containerd.event.v1.publisher\"..." runtime=io.containerd.runc.v2 type=io.containerd.event.v1
+Dec 19 22:54:10 smasher-VirtualBox containerd[654]: time="2024-12-19T22:54:10.731957959+08:00" level=info msg="loading plugin \"io.containerd.internal.v1.shutdown\"..." runtime=io.containerd.runc.v2 type=io.containerd.internal.v1
+Dec 19 22:54:10 smasher-VirtualBox containerd[654]: time="2024-12-19T22:54:10.731962335+08:00" level=info msg="loading plugin \"io.containerd.ttrpc.v1.task\"..." runtime=io.containerd.runc.v2 type=io.containerd.ttrpc.v1
+Dec 19 22:54:10 smasher-VirtualBox containerd[654]: time="2024-12-19T22:54:10.731998403+08:00" level=info msg="loading plugin \"io.containerd.ttrpc.v1.pause\"..." runtime=io.containerd.runc.v2 type=io.containerd.ttrpc.v1
+Dec 19 22:54:10 smasher-VirtualBox dockerd[770]: time="2024-12-19T22:54:10.753161694+08:00" level=info msg="No non-localhost DNS nameservers are left in resolv.conf. Using default external servers"
+Dec 19 22:54:10 smasher-VirtualBox NetworkManager[547]: <info>  [1734620050.8328] manager: (veth2d305c1): new Veth device (/org/freedesktop/NetworkManager/Devices/413)
+Dec 19 22:54:10 smasher-VirtualBox NetworkManager[547]: <info>  [1734620050.8332] manager: (vethdbe5b07): new Veth device (/org/freedesktop/NetworkManager/Devices/414)
+Dec 19 22:54:10 smasher-VirtualBox kernel: [450504.351095] br_phynet: port 3(vethdbe5b07) entered blocking state
+Dec 19 22:54:10 smasher-VirtualBox kernel: [450504.351098] br_phynet: port 3(vethdbe5b07) entered disabled state
+Dec 19 22:54:10 smasher-VirtualBox kernel: [450504.351617] device vethdbe5b07 entered promiscuous mode
+Dec 19 22:54:10 smasher-VirtualBox systemd-udevd[766858]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Dec 19 22:54:10 smasher-VirtualBox systemd-udevd[766858]: veth2d305c1: Could not generate persistent MAC: No data available
+Dec 19 22:54:10 smasher-VirtualBox systemd-udevd[767010]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Dec 19 22:54:10 smasher-VirtualBox systemd-udevd[767010]: vethdbe5b07: Could not generate persistent MAC: No data available
+Dec 19 22:54:10 smasher-VirtualBox kernel: [450504.368290] br_phynet: port 3(vethdbe5b07) entered blocking state
+Dec 19 22:54:10 smasher-VirtualBox kernel: [450504.368293] br_phynet: port 3(vethdbe5b07) entered forwarding state
+Dec 19 22:54:10 smasher-VirtualBox kernel: [450504.368329] br_icsnet: port 5(vethcd2e7ae) entered disabled state
+Dec 19 22:54:10 smasher-VirtualBox kernel: [450504.368375] br_icsnet: port 6(veth6320846) entered disabled state
+Dec 19 22:54:10 smasher-VirtualBox kernel: [450504.368386] br_icsnet: port 7(vethe12c7a7) entered disabled state
+Dec 19 22:54:10 smasher-VirtualBox kernel: [450504.368397] br_icsnet: port 8(veth24a2c76) entered disabled state
+Dec 19 22:54:10 smasher-VirtualBox kernel: [450504.368408] br_icsnet: port 9(vethfb6683b) entered disabled state
+Dec 19 22:54:10 smasher-VirtualBox kernel: [450504.368419] br_phynet: port 3(vethdbe5b07) entered disabled state
+Dec 19 22:54:10 smasher-VirtualBox dockerd[770]: time="2024-12-19T22:54:10.898850289+08:00" level=info msg="No non-localhost DNS nameservers are left in resolv.conf. Using default external servers"
+Dec 19 22:54:10 smasher-VirtualBox dockerd[770]: time="2024-12-19T22:54:10.923277567+08:00" level=info msg="No non-localhost DNS nameservers are left in resolv.conf. Using default external servers"
+Dec 19 22:54:10 smasher-VirtualBox containerd[654]: time="2024-12-19T22:54:10.883713867+08:00" level=info msg="loading plugin \"io.containerd.event.v1.publisher\"..." runtime=io.containerd.runc.v2 type=io.containerd.event.v1
+Dec 19 22:54:10 smasher-VirtualBox containerd[654]: time="2024-12-19T22:54:10.883759290+08:00" level=info msg="loading plugin \"io.containerd.internal.v1.shutdown\"..." runtime=io.containerd.runc.v2 type=io.containerd.internal.v1
+Dec 19 22:54:10 smasher-VirtualBox containerd[654]: time="2024-12-19T22:54:10.883766040+08:00" level=info msg="loading plugin \"io.containerd.ttrpc.v1.task\"..." runtime=io.containerd.runc.v2 type=io.containerd.ttrpc.v1
+Dec 19 22:54:10 smasher-VirtualBox containerd[654]: time="2024-12-19T22:54:10.883813297+08:00" level=info msg="loading plugin \"io.containerd.ttrpc.v1.pause\"..." runtime=io.containerd.runc.v2 type=io.containerd.ttrpc.v1
+Dec 19 22:54:10 smasher-VirtualBox gnome-shell[2688]: Removing a network device that was not added
+Dec 19 22:54:10 smasher-VirtualBox kernel: [450504.447041] eth0: renamed from vethaa63e36
+Dec 19 22:54:10 smasher-VirtualBox kernel: [450504.448435] IPv6: ADDRCONF(NETDEV_CHANGE): veth4feb3a3: link becomes ready
+Dec 19 22:54:10 smasher-VirtualBox kernel: [450504.448457] br_icsnet: port 2(veth4feb3a3) entered blocking state
+Dec 19 22:54:10 smasher-VirtualBox kernel: [450504.448460] br_icsnet: port 2(veth4feb3a3) entered forwarding state
+Dec 19 22:54:10 smasher-VirtualBox NetworkManager[547]: <info>  [1734620050.9482] device (veth4feb3a3): carrier: link connected
+Dec 19 22:54:10 smasher-VirtualBox NetworkManager[547]: <info>  [1734620050.9493] device (br_icsnet): carrier: link connected
+Dec 19 22:54:10 smasher-VirtualBox gnome-shell[2688]: Removing a network device that was not added
+Dec 19 22:54:10 smasher-VirtualBox kernel: [450504.470434] eth0: renamed from veth8e5a394
+Dec 19 22:54:10 smasher-VirtualBox NetworkManager[547]: <info>  [1734620050.9701] device (veth4338abd): carrier: link connected
+Dec 19 22:54:10 smasher-VirtualBox kernel: [450504.472215] IPv6: ADDRCONF(NETDEV_CHANGE): veth4338abd: link becomes ready
+Dec 19 22:54:10 smasher-VirtualBox kernel: [450504.472235] br_phynet: port 1(veth4338abd) entered blocking state
+Dec 19 22:54:10 smasher-VirtualBox kernel: [450504.472237] br_phynet: port 1(veth4338abd) entered forwarding state
+Dec 19 22:54:10 smasher-VirtualBox NetworkManager[547]: <info>  [1734620050.9717] device (br_phynet): carrier: link connected
+Dec 19 22:54:11 smasher-VirtualBox avahi-daemon[543]: Joining mDNS multicast group on interface br_phynet.IPv6 with address fe80::42:5cff:fead:4788.
+Dec 19 22:54:11 smasher-VirtualBox avahi-daemon[543]: New relevant interface br_phynet.IPv6 for mDNS.
+Dec 19 22:54:11 smasher-VirtualBox avahi-daemon[543]: Registering new address record for fe80::42:5cff:fead:4788 on br_phynet.*.
+Dec 19 22:54:11 smasher-VirtualBox containerd[654]: time="2024-12-19T22:54:11.151420799+08:00" level=info msg="loading plugin \"io.containerd.event.v1.publisher\"..." runtime=io.containerd.runc.v2 type=io.containerd.event.v1
+Dec 19 22:54:11 smasher-VirtualBox containerd[654]: time="2024-12-19T22:54:11.152112457+08:00" level=info msg="loading plugin \"io.containerd.internal.v1.shutdown\"..." runtime=io.containerd.runc.v2 type=io.containerd.internal.v1
+Dec 19 22:54:11 smasher-VirtualBox containerd[654]: time="2024-12-19T22:54:11.153536299+08:00" level=info msg="loading plugin \"io.containerd.ttrpc.v1.task\"..." runtime=io.containerd.runc.v2 type=io.containerd.ttrpc.v1
+Dec 19 22:54:11 smasher-VirtualBox containerd[654]: time="2024-12-19T22:54:11.154023083+08:00" level=info msg="loading plugin \"io.containerd.ttrpc.v1.pause\"..." runtime=io.containerd.runc.v2 type=io.containerd.ttrpc.v1
+Dec 19 22:54:11 smasher-VirtualBox containerd[654]: time="2024-12-19T22:54:11.187115751+08:00" level=info msg="loading plugin \"io.containerd.event.v1.publisher\"..." runtime=io.containerd.runc.v2 type=io.containerd.event.v1
+Dec 19 22:54:11 smasher-VirtualBox containerd[654]: time="2024-12-19T22:54:11.196038711+08:00" level=info msg="loading plugin \"io.containerd.internal.v1.shutdown\"..." runtime=io.containerd.runc.v2 type=io.containerd.internal.v1
+Dec 19 22:54:11 smasher-VirtualBox containerd[654]: time="2024-12-19T22:54:11.196651777+08:00" level=info msg="loading plugin \"io.containerd.ttrpc.v1.task\"..." runtime=io.containerd.runc.v2 type=io.containerd.ttrpc.v1
+Dec 19 22:54:11 smasher-VirtualBox containerd[654]: time="2024-12-19T22:54:11.197052786+08:00" level=info msg="loading plugin \"io.containerd.ttrpc.v1.pause\"..." runtime=io.containerd.runc.v2 type=io.containerd.ttrpc.v1
+Dec 19 22:54:11 smasher-VirtualBox containerd[654]: time="2024-12-19T22:54:11.197516648+08:00" level=info msg="loading plugin \"io.containerd.event.v1.publisher\"..." runtime=io.containerd.runc.v2 type=io.containerd.event.v1
+Dec 19 22:54:11 smasher-VirtualBox containerd[654]: time="2024-12-19T22:54:11.197940500+08:00" level=info msg="loading plugin \"io.containerd.internal.v1.shutdown\"..." runtime=io.containerd.runc.v2 type=io.containerd.internal.v1
+Dec 19 22:54:11 smasher-VirtualBox containerd[654]: time="2024-12-19T22:54:11.198238509+08:00" level=info msg="loading plugin \"io.containerd.ttrpc.v1.task\"..." runtime=io.containerd.runc.v2 type=io.containerd.ttrpc.v1
+Dec 19 22:54:11 smasher-VirtualBox containerd[654]: time="2024-12-19T22:54:11.198602878+08:00" level=info msg="loading plugin \"io.containerd.ttrpc.v1.pause\"..." runtime=io.containerd.runc.v2 type=io.containerd.ttrpc.v1
+Dec 19 22:54:11 smasher-VirtualBox containerd[654]: time="2024-12-19T22:54:11.270506488+08:00" level=info msg="loading plugin \"io.containerd.event.v1.publisher\"..." runtime=io.containerd.runc.v2 type=io.containerd.event.v1
+Dec 19 22:54:11 smasher-VirtualBox containerd[654]: time="2024-12-19T22:54:11.278155084+08:00" level=info msg="loading plugin \"io.containerd.internal.v1.shutdown\"..." runtime=io.containerd.runc.v2 type=io.containerd.internal.v1
+Dec 19 22:54:11 smasher-VirtualBox containerd[654]: time="2024-12-19T22:54:11.278619272+08:00" level=info msg="loading plugin \"io.containerd.ttrpc.v1.task\"..." runtime=io.containerd.runc.v2 type=io.containerd.ttrpc.v1
+Dec 19 22:54:11 smasher-VirtualBox containerd[654]: time="2024-12-19T22:54:11.279023266+08:00" level=info msg="loading plugin \"io.containerd.ttrpc.v1.pause\"..." runtime=io.containerd.runc.v2 type=io.containerd.ttrpc.v1
+Dec 19 22:54:11 smasher-VirtualBox containerd[654]: time="2024-12-19T22:54:11.311967417+08:00" level=info msg="loading plugin \"io.containerd.event.v1.publisher\"..." runtime=io.containerd.runc.v2 type=io.containerd.event.v1
+Dec 19 22:54:11 smasher-VirtualBox containerd[654]: time="2024-12-19T22:54:11.316841444+08:00" level=info msg="loading plugin \"io.containerd.internal.v1.shutdown\"..." runtime=io.containerd.runc.v2 type=io.containerd.internal.v1
+Dec 19 22:54:11 smasher-VirtualBox containerd[654]: time="2024-12-19T22:54:11.317443362+08:00" level=info msg="loading plugin \"io.containerd.ttrpc.v1.task\"..." runtime=io.containerd.runc.v2 type=io.containerd.ttrpc.v1
+Dec 19 22:54:11 smasher-VirtualBox containerd[654]: time="2024-12-19T22:54:11.318395345+08:00" level=info msg="loading plugin \"io.containerd.ttrpc.v1.pause\"..." runtime=io.containerd.runc.v2 type=io.containerd.ttrpc.v1
+Dec 19 22:54:11 smasher-VirtualBox containerd[654]: time="2024-12-19T22:54:11.322899218+08:00" level=info msg="loading plugin \"io.containerd.event.v1.publisher\"..." runtime=io.containerd.runc.v2 type=io.containerd.event.v1
+Dec 19 22:54:11 smasher-VirtualBox containerd[654]: time="2024-12-19T22:54:11.335768625+08:00" level=info msg="loading plugin \"io.containerd.internal.v1.shutdown\"..." runtime=io.containerd.runc.v2 type=io.containerd.internal.v1
+Dec 19 22:54:11 smasher-VirtualBox containerd[654]: time="2024-12-19T22:54:11.336702478+08:00" level=info msg="loading plugin \"io.containerd.ttrpc.v1.task\"..." runtime=io.containerd.runc.v2 type=io.containerd.ttrpc.v1
+Dec 19 22:54:11 smasher-VirtualBox containerd[654]: time="2024-12-19T22:54:11.337503227+08:00" level=info msg="loading plugin \"io.containerd.ttrpc.v1.pause\"..." runtime=io.containerd.runc.v2 type=io.containerd.ttrpc.v1
+Dec 19 22:54:11 smasher-VirtualBox kernel: [450504.991616] eth0: renamed from veth25cef95
+Dec 19 22:54:11 smasher-VirtualBox NetworkManager[547]: <info>  [1734620051.4932] device (veth7ec1588): carrier: link connected
+Dec 19 22:54:11 smasher-VirtualBox gnome-shell[2688]: Removing a network device that was not added
+Dec 19 22:54:11 smasher-VirtualBox kernel: [450504.994993] IPv6: ADDRCONF(NETDEV_CHANGE): veth7ec1588: link becomes ready
+Dec 19 22:54:11 smasher-VirtualBox kernel: [450504.995025] br_icsnet: port 3(veth7ec1588) entered blocking state
+Dec 19 22:54:11 smasher-VirtualBox kernel: [450504.995028] br_icsnet: port 3(veth7ec1588) entered forwarding state
+Dec 19 22:54:11 smasher-VirtualBox kernel: [450505.235405] eth0: renamed from veth44ca9eb
+Dec 19 22:54:11 smasher-VirtualBox kernel: [450505.237574] IPv6: ADDRCONF(NETDEV_CHANGE): vethd3e03d2: link becomes ready
+Dec 19 22:54:11 smasher-VirtualBox kernel: [450505.237637] br_icsnet: port 4(vethd3e03d2) entered blocking state
+Dec 19 22:54:11 smasher-VirtualBox kernel: [450505.237640] br_icsnet: port 4(vethd3e03d2) entered forwarding state
+Dec 19 22:54:11 smasher-VirtualBox NetworkManager[547]: <info>  [1734620051.7414] device (vethd3e03d2): carrier: link connected
+Dec 19 22:54:11 smasher-VirtualBox gnome-shell[2688]: Removing a network device that was not added
+Dec 19 22:54:11 smasher-VirtualBox avahi-daemon[543]: Joining mDNS multicast group on interface br_icsnet.IPv6 with address fe80::42:59ff:fe2d:7a41.
+Dec 19 22:54:11 smasher-VirtualBox avahi-daemon[543]: New relevant interface br_icsnet.IPv6 for mDNS.
+Dec 19 22:54:11 smasher-VirtualBox avahi-daemon[543]: Registering new address record for fe80::42:59ff:fe2d:7a41 on br_icsnet.*.
+Dec 19 22:54:12 smasher-VirtualBox gnome-shell[2688]: Removing a network device that was not added
+Dec 19 22:54:12 smasher-VirtualBox NetworkManager[547]: <info>  [1734620052.0452] device (veth53fc3d7): carrier: link connected
+Dec 19 22:54:12 smasher-VirtualBox kernel: [450505.547200] eth0: renamed from veth24d9cf4
+Dec 19 22:54:12 smasher-VirtualBox kernel: [450505.547368] IPv6: ADDRCONF(NETDEV_CHANGE): veth53fc3d7: link becomes ready
+Dec 19 22:54:12 smasher-VirtualBox kernel: [450505.547394] br_icsnet: port 1(veth53fc3d7) entered blocking state
+Dec 19 22:54:12 smasher-VirtualBox kernel: [450505.547397] br_icsnet: port 1(veth53fc3d7) entered forwarding state
+Dec 19 22:54:12 smasher-VirtualBox gnome-shell[2688]: Removing a network device that was not added
+Dec 19 22:54:12 smasher-VirtualBox NetworkManager[547]: <info>  [1734620052.0762] device (vethcd2e7ae): carrier: link connected
+Dec 19 22:54:12 smasher-VirtualBox kernel: [450505.578297] eth0: renamed from vethc472a41
+Dec 19 22:54:12 smasher-VirtualBox kernel: [450505.578466] IPv6: ADDRCONF(NETDEV_CHANGE): vethcd2e7ae: link becomes ready
+Dec 19 22:54:12 smasher-VirtualBox kernel: [450505.578489] br_icsnet: port 5(vethcd2e7ae) entered blocking state
+Dec 19 22:54:12 smasher-VirtualBox kernel: [450505.578491] br_icsnet: port 5(vethcd2e7ae) entered forwarding state
+Dec 19 22:54:12 smasher-VirtualBox gnome-shell[2688]: Removing a network device that was not added
+Dec 19 22:54:12 smasher-VirtualBox NetworkManager[547]: <info>  [1734620052.0934] device (vethe12c7a7): carrier: link connected
+Dec 19 22:54:12 smasher-VirtualBox kernel: [450505.595593] eth0: renamed from veth6646a27
+Dec 19 22:54:12 smasher-VirtualBox kernel: [450505.595743] IPv6: ADDRCONF(NETDEV_CHANGE): vethe12c7a7: link becomes ready
+Dec 19 22:54:12 smasher-VirtualBox kernel: [450505.595763] br_icsnet: port 7(vethe12c7a7) entered blocking state
+Dec 19 22:54:12 smasher-VirtualBox kernel: [450505.595764] br_icsnet: port 7(vethe12c7a7) entered forwarding state
+Dec 19 22:54:12 smasher-VirtualBox gnome-shell[2688]: Removing a network device that was not added
+Dec 19 22:54:12 smasher-VirtualBox kernel: [450505.621863] eth0: renamed from veth5b9472c
+Dec 19 22:54:12 smasher-VirtualBox kernel: [450505.623767] IPv6: ADDRCONF(NETDEV_CHANGE): veth6320846: link becomes ready
+Dec 19 22:54:12 smasher-VirtualBox kernel: [450505.623789] br_icsnet: port 6(veth6320846) entered blocking state
+Dec 19 22:54:12 smasher-VirtualBox kernel: [450505.623791] br_icsnet: port 6(veth6320846) entered forwarding state
+Dec 19 22:54:12 smasher-VirtualBox NetworkManager[547]: <info>  [1734620052.1219] device (veth6320846): carrier: link connected
+Dec 19 22:54:12 smasher-VirtualBox gnome-shell[2688]: Removing a network device that was not added
+Dec 19 22:54:12 smasher-VirtualBox kernel: [450505.695439] eth0: renamed from vethaf06879
+Dec 19 22:54:12 smasher-VirtualBox kernel: [450505.695621] IPv6: ADDRCONF(NETDEV_CHANGE): veth24a2c76: link becomes ready
+Dec 19 22:54:12 smasher-VirtualBox kernel: [450505.695642] br_icsnet: port 8(veth24a2c76) entered blocking state
+Dec 19 22:54:12 smasher-VirtualBox kernel: [450505.695643] br_icsnet: port 8(veth24a2c76) entered forwarding state
+Dec 19 22:54:12 smasher-VirtualBox NetworkManager[547]: <info>  [1734620052.1950] device (veth24a2c76): carrier: link connected
+Dec 19 22:54:12 smasher-VirtualBox NetworkManager[547]: <info>  [1734620052.2370] device (vethfb6683b): carrier: link connected
+Dec 19 22:54:12 smasher-VirtualBox kernel: [450505.738787] IPv6: ADDRCONF(NETDEV_CHANGE): vethfb6683b: link becomes ready
+Dec 19 22:54:12 smasher-VirtualBox kernel: [450505.738820] br_icsnet: port 9(vethfb6683b) entered blocking state
+Dec 19 22:54:12 smasher-VirtualBox kernel: [450505.738822] br_icsnet: port 9(vethfb6683b) entered forwarding state
+Dec 19 22:54:12 smasher-VirtualBox gnome-shell[2688]: Removing a network device that was not added
+Dec 19 22:54:12 smasher-VirtualBox kernel: [450505.772262] eth1: renamed from veth2d305c1
+Dec 19 22:54:12 smasher-VirtualBox kernel: [450505.773085] IPv6: ADDRCONF(NETDEV_CHANGE): vethdbe5b07: link becomes ready
+Dec 19 22:54:12 smasher-VirtualBox kernel: [450505.773133] br_phynet: port 3(vethdbe5b07) entered blocking state
+Dec 19 22:54:12 smasher-VirtualBox kernel: [450505.773134] br_phynet: port 3(vethdbe5b07) entered forwarding state
+Dec 19 22:54:12 smasher-VirtualBox gnome-shell[2688]: Removing a network device that was not added
+Dec 19 22:54:12 smasher-VirtualBox NetworkManager[547]: <info>  [1734620052.2727] device (vethdbe5b07): carrier: link connected
+Dec 19 22:54:12 smasher-VirtualBox kernel: [450505.802251] eth1: renamed from vethbdd90b0
+Dec 19 22:54:12 smasher-VirtualBox NetworkManager[547]: <info>  [1734620052.3023] device (veth43628a0): carrier: link connected
+Dec 19 22:54:12 smasher-VirtualBox gnome-shell[2688]: Removing a network device that was not added
+Dec 19 22:54:12 smasher-VirtualBox avahi-daemon[543]: Joining mDNS multicast group on interface veth4338abd.IPv6 with address fe80::8c04:88ff:fe8e:e091.
+Dec 19 22:54:12 smasher-VirtualBox avahi-daemon[543]: New relevant interface veth4338abd.IPv6 for mDNS.
+Dec 19 22:54:12 smasher-VirtualBox avahi-daemon[543]: Registering new address record for fe80::8c04:88ff:fe8e:e091 on veth4338abd.*.
+Dec 19 22:54:12 smasher-VirtualBox avahi-daemon[543]: Joining mDNS multicast group on interface veth4feb3a3.IPv6 with address fe80::48ef:1fff:fe70:24c9.
+Dec 19 22:54:12 smasher-VirtualBox avahi-daemon[543]: New relevant interface veth4feb3a3.IPv6 for mDNS.
+Dec 19 22:54:12 smasher-VirtualBox avahi-daemon[543]: Registering new address record for fe80::48ef:1fff:fe70:24c9 on veth4feb3a3.*.
+Dec 19 22:54:13 smasher-VirtualBox avahi-daemon[543]: Joining mDNS multicast group on interface veth7ec1588.IPv6 with address fe80::4066:b5ff:fe5e:4c4f.
+Dec 19 22:54:13 smasher-VirtualBox avahi-daemon[543]: New relevant interface veth7ec1588.IPv6 for mDNS.
+Dec 19 22:54:13 smasher-VirtualBox avahi-daemon[543]: Registering new address record for fe80::4066:b5ff:fe5e:4c4f on veth7ec1588.*.
+Dec 19 22:54:13 smasher-VirtualBox avahi-daemon[543]: Joining mDNS multicast group on interface veth53fc3d7.IPv6 with address fe80::5cdf:84ff:fe8c:ebec.
+Dec 19 22:54:13 smasher-VirtualBox avahi-daemon[543]: New relevant interface veth53fc3d7.IPv6 for mDNS.
+Dec 19 22:54:13 smasher-VirtualBox avahi-daemon[543]: Registering new address record for fe80::5cdf:84ff:fe8c:ebec on veth53fc3d7.*.
+Dec 19 22:54:13 smasher-VirtualBox avahi-daemon[543]: Joining mDNS multicast group on interface veth6320846.IPv6 with address fe80::4ea:97ff:fe9d:4110.
+Dec 19 22:54:13 smasher-VirtualBox avahi-daemon[543]: New relevant interface veth6320846.IPv6 for mDNS.
+Dec 19 22:54:13 smasher-VirtualBox avahi-daemon[543]: Registering new address record for fe80::4ea:97ff:fe9d:4110 on veth6320846.*.
+Dec 19 22:54:13 smasher-VirtualBox avahi-daemon[543]: Joining mDNS multicast group on interface vethdbe5b07.IPv6 with address fe80::64ad:79ff:fea0:4dd.
+Dec 19 22:54:13 smasher-VirtualBox avahi-daemon[543]: New relevant interface vethdbe5b07.IPv6 for mDNS.
+Dec 19 22:54:13 smasher-VirtualBox avahi-daemon[543]: Registering new address record for fe80::64ad:79ff:fea0:4dd on vethdbe5b07.*.
+Dec 19 22:54:13 smasher-VirtualBox avahi-daemon[543]: Joining mDNS multicast group on interface vethd3e03d2.IPv6 with address fe80::e4a2:adff:feb9:c3a9.
+Dec 19 22:54:13 smasher-VirtualBox avahi-daemon[543]: New relevant interface vethd3e03d2.IPv6 for mDNS.
+Dec 19 22:54:13 smasher-VirtualBox avahi-daemon[543]: Registering new address record for fe80::e4a2:adff:feb9:c3a9 on vethd3e03d2.*.
+Dec 19 22:54:13 smasher-VirtualBox avahi-daemon[543]: Joining mDNS multicast group on interface vethcd2e7ae.IPv6 with address fe80::740f:57ff:fe96:78f.
+Dec 19 22:54:13 smasher-VirtualBox avahi-daemon[543]: New relevant interface vethcd2e7ae.IPv6 for mDNS.
+Dec 19 22:54:13 smasher-VirtualBox avahi-daemon[543]: Registering new address record for fe80::740f:57ff:fe96:78f on vethcd2e7ae.*.
+Dec 19 22:54:13 smasher-VirtualBox avahi-daemon[543]: Joining mDNS multicast group on interface veth24a2c76.IPv6 with address fe80::6448:2bff:fe94:1911.
+Dec 19 22:54:13 smasher-VirtualBox avahi-daemon[543]: New relevant interface veth24a2c76.IPv6 for mDNS.
+Dec 19 22:54:13 smasher-VirtualBox avahi-daemon[543]: Registering new address record for fe80::6448:2bff:fe94:1911 on veth24a2c76.*.
+Dec 19 22:54:14 smasher-VirtualBox avahi-daemon[543]: Joining mDNS multicast group on interface vethfb6683b.IPv6 with address fe80::8c99:e8ff:fe0d:7ae.
+Dec 19 22:54:14 smasher-VirtualBox avahi-daemon[543]: New relevant interface vethfb6683b.IPv6 for mDNS.
+Dec 19 22:54:14 smasher-VirtualBox avahi-daemon[543]: Registering new address record for fe80::8c99:e8ff:fe0d:7ae on vethfb6683b.*.
+Dec 19 22:54:14 smasher-VirtualBox avahi-daemon[543]: Joining mDNS multicast group on interface vethe12c7a7.IPv6 with address fe80::e05a:92ff:fe0a:e641.
+Dec 19 22:54:14 smasher-VirtualBox avahi-daemon[543]: New relevant interface vethe12c7a7.IPv6 for mDNS.
+Dec 19 22:54:14 smasher-VirtualBox avahi-daemon[543]: Registering new address record for fe80::e05a:92ff:fe0a:e641 on vethe12c7a7.*.
+Dec 19 22:54:14 smasher-VirtualBox avahi-daemon[543]: Joining mDNS multicast group on interface veth43628a0.IPv6 with address fe80::c865:54ff:fe77:3154.
+Dec 19 22:54:14 smasher-VirtualBox avahi-daemon[543]: New relevant interface veth43628a0.IPv6 for mDNS.
+Dec 19 22:54:14 smasher-VirtualBox avahi-daemon[543]: Registering new address record for fe80::c865:54ff:fe77:3154 on veth43628a0.*.
+Dec 19 22:54:14 smasher-VirtualBox kernel: [450507.999562] device br_icsnet entered promiscuous mode
+Dec 19 22:54:19 smasher-VirtualBox systemd[1]: NetworkManager-dispatcher.service: Succeeded.
+Dec 19 22:54:58 smasher-VirtualBox dbus-daemon[2514]: [session uid=1000 pid=2514] Activating service name='org.gnome.gedit' requested by ':1.84' (uid=1000 pid=3659 comm="/usr/bin/nautilus --gapplication-service " label="unconfined")
+Dec 19 22:54:58 smasher-VirtualBox dbus-daemon[2514]: [session uid=1000 pid=2514] Successfully activated service 'org.gnome.gedit'
+Dec 19 22:55:44 smasher-VirtualBox dbus-daemon[2514]: [session uid=1000 pid=2514] Activating service name='org.gnome.gedit' requested by ':1.84' (uid=1000 pid=3659 comm="/usr/bin/nautilus --gapplication-service " label="unconfined")
+Dec 19 22:55:44 smasher-VirtualBox dbus-daemon[2514]: [session uid=1000 pid=2514] Successfully activated service 'org.gnome.gedit'
+Dec 19 22:56:07 smasher-VirtualBox dbus-daemon[2514]: [session uid=1000 pid=2514] Activating service name='org.gnome.gedit' requested by ':1.84' (uid=1000 pid=3659 comm="/usr/bin/nautilus --gapplication-service " label="unconfined")
+Dec 19 22:56:07 smasher-VirtualBox dbus-daemon[2514]: [session uid=1000 pid=2514] Successfully activated service 'org.gnome.gedit'
+Dec 19 22:56:19 smasher-VirtualBox dbus-daemon[2514]: [session uid=1000 pid=2514] Activating service name='org.gnome.gedit' requested by ':1.84' (uid=1000 pid=3659 comm="/usr/bin/nautilus --gapplication-service " label="unconfined")
+Dec 19 22:56:19 smasher-VirtualBox dbus-daemon[2514]: [session uid=1000 pid=2514] Successfully activated service 'org.gnome.gedit'
+Dec 19 22:56:20 smasher-VirtualBox gedit[768384]: Loading metadata failed: The specified location is not mounted
+Dec 19 22:56:32 smasher-VirtualBox dbus-daemon[2514]: [session uid=1000 pid=2514] Activating service name='org.gnome.gedit' requested by ':1.84' (uid=1000 pid=3659 comm="/usr/bin/nautilus --gapplication-service " label="unconfined")
+Dec 19 22:56:32 smasher-VirtualBox dbus-daemon[2514]: [session uid=1000 pid=2514] Successfully activated service 'org.gnome.gedit'
+Dec 19 22:56:33 smasher-VirtualBox gedit[768455]: Loading metadata failed: The specified location is not mounted
+Dec 19 22:56:46 smasher-VirtualBox dbus-daemon[2514]: [session uid=1000 pid=2514] Activating service name='org.gnome.gedit' requested by ':1.84' (uid=1000 pid=3659 comm="/usr/bin/nautilus --gapplication-service " label="unconfined")
+Dec 19 22:56:46 smasher-VirtualBox dbus-daemon[2514]: [session uid=1000 pid=2514] Successfully activated service 'org.gnome.gedit'
+Dec 19 22:56:46 smasher-VirtualBox gedit[768525]: Loading metadata failed: The specified location is not mounted
+Dec 19 22:57:08 smasher-VirtualBox dbus-daemon[2514]: [session uid=1000 pid=2514] Activating service name='org.gnome.gedit' requested by ':1.84' (uid=1000 pid=3659 comm="/usr/bin/nautilus --gapplication-service " label="unconfined")
+Dec 19 22:57:09 smasher-VirtualBox dbus-daemon[2514]: [session uid=1000 pid=2514] Successfully activated service 'org.gnome.gedit'
+Dec 19 22:57:09 smasher-VirtualBox gedit[768656]: Loading metadata failed: The specified location is not mounted
+Dec 19 22:57:20 smasher-VirtualBox dbus-daemon[2514]: [session uid=1000 pid=2514] Activating service name='org.gnome.gedit' requested by ':1.84' (uid=1000 pid=3659 comm="/usr/bin/nautilus --gapplication-service " label="unconfined")
+Dec 19 22:57:20 smasher-VirtualBox dbus-daemon[2514]: [session uid=1000 pid=2514] Successfully activated service 'org.gnome.gedit'
+Dec 19 22:57:21 smasher-VirtualBox gedit[768723]: Loading metadata failed: The specified location is not mounted
+Dec 19 22:57:53 smasher-VirtualBox dbus-daemon[2514]: [session uid=1000 pid=2514] Activating service name='org.gnome.gedit' requested by ':1.84' (uid=1000 pid=3659 comm="/usr/bin/nautilus --gapplication-service " label="unconfined")
+Dec 19 22:57:53 smasher-VirtualBox dbus-daemon[2514]: [session uid=1000 pid=2514] Successfully activated service 'org.gnome.gedit'
+Dec 19 22:57:54 smasher-VirtualBox gedit[768877]: Loading metadata failed: The specified location is not mounted
+Dec 19 22:58:28 smasher-VirtualBox dbus-daemon[2514]: [session uid=1000 pid=2514] Activating service name='org.gnome.gedit' requested by ':1.84' (uid=1000 pid=3659 comm="/usr/bin/nautilus --gapplication-service " label="unconfined")
+Dec 19 22:58:28 smasher-VirtualBox dbus-daemon[2514]: [session uid=1000 pid=2514] Successfully activated service 'org.gnome.gedit'
+Dec 19 22:58:28 smasher-VirtualBox gedit[769041]: Loading metadata failed: The specified location is not mounted
+Dec 19 23:09:47 smasher-VirtualBox gnome-shell[2688]: cr_parser_new_from_buf: assertion 'a_buf && a_len' failed
+Dec 19 23:09:47 smasher-VirtualBox gnome-shell[2688]: cr_declaration_parse_list_from_buf: assertion 'parser' failed
+Dec 19 23:09:47 smasher-VirtualBox gnome-shell[2688]: cr_parser_new_from_buf: assertion 'a_buf && a_len' failed
+Dec 19 23:09:47 smasher-VirtualBox gnome-shell[2688]: cr_declaration_parse_list_from_buf: assertion 'parser' failed
+Dec 19 23:09:47 smasher-VirtualBox gnome-shell[2688]: g_dbus_connection_emit_signal: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+Dec 19 23:09:47 smasher-VirtualBox gnome-shell[2688]: cr_parser_new_from_buf: assertion 'a_buf && a_len' failed
+Dec 19 23:09:47 smasher-VirtualBox gnome-shell[2688]: cr_declaration_parse_list_from_buf: assertion 'parser' failed
+Dec 19 23:17:01 smasher-VirtualBox CRON[773819]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Dec 19 23:30:01 smasher-VirtualBox CRON[777002]: (root) CMD ([ -x /etc/init.d/anacron ] && if [ ! -d /run/systemd/system ]; then /usr/sbin/invoke-rc.d anacron start >/dev/null; fi)
+Dec 19 23:30:46 smasher-VirtualBox systemd[1]: Started Run anacron jobs.
+Dec 19 23:30:46 smasher-VirtualBox systemd[1]: anacron.service: Succeeded.
+Dec 19 23:30:46 smasher-VirtualBox anacron[777185]: Anacron 2.3 started on 2024-12-19
+Dec 19 23:30:46 smasher-VirtualBox anacron[777185]: Normal exit (0 jobs run)
+Dec 20 00:00:03 smasher-VirtualBox dbus-daemon[546]: [system] Activating via systemd: service name='net.reactivated.Fprint' unit='fprintd.service' requested by ':1.81' (uid=1000 pid=2688 comm="/usr/bin/gnome-shell " label="unconfined")
+Dec 20 00:00:03 smasher-VirtualBox systemd[1]: Starting Fingerprint Authentication Daemon...
+Dec 20 00:00:03 smasher-VirtualBox systemd[1]: Starting Rotate log files...
+Dec 20 00:00:03 smasher-VirtualBox systemd[1]: Starting Daily man-db regeneration...
+Dec 20 00:00:03 smasher-VirtualBox systemd[1]: Stopping Make remote CUPS printers available locally...
+Dec 20 00:00:03 smasher-VirtualBox systemd[1]: cups-browsed.service: Succeeded.
+Dec 20 00:00:03 smasher-VirtualBox systemd[1]: Stopped Make remote CUPS printers available locally.
+Dec 20 00:00:03 smasher-VirtualBox systemd[1]: Stopping CUPS Scheduler...
+Dec 20 00:00:03 smasher-VirtualBox dbus-daemon[546]: [system] Successfully activated service 'net.reactivated.Fprint'
+Dec 20 00:00:03 smasher-VirtualBox systemd[1]: Started Fingerprint Authentication Daemon.
+Dec 20 00:00:03 smasher-VirtualBox systemd[1]: cups.service: Succeeded.
+Dec 20 00:00:03 smasher-VirtualBox systemd[1]: Stopped CUPS Scheduler.
+Dec 20 00:00:03 smasher-VirtualBox systemd[1]: cups.path: Succeeded.
+Dec 20 00:00:03 smasher-VirtualBox systemd[1]: Stopped CUPS Scheduler.
+Dec 20 00:00:03 smasher-VirtualBox systemd[1]: Stopping CUPS Scheduler.
+Dec 20 00:00:03 smasher-VirtualBox systemd[1]: Started CUPS Scheduler.
+Dec 20 00:00:03 smasher-VirtualBox systemd[1]: cups.socket: Succeeded.
+Dec 20 00:00:03 smasher-VirtualBox systemd[1]: Closed CUPS Scheduler.
+Dec 20 00:00:03 smasher-VirtualBox systemd[1]: Stopping CUPS Scheduler.
+Dec 20 00:00:03 smasher-VirtualBox systemd[1]: Listening on CUPS Scheduler.
+Dec 20 00:00:03 smasher-VirtualBox systemd[1]: Started CUPS Scheduler.
+Dec 20 00:00:03 smasher-VirtualBox systemd[1]: Started Make remote CUPS printers available locally.
