@@ -1,6 +1,6 @@
 
-# ICSSIM
-This is the ICSSIM source code and user manual for simulating industrial control system testbed for cybersecurity experiments.
+# attackfault_cps
+This is the attackfault_cps source code inspired by ICSSIM - [https://github.com/AlirezaDehlaghi/ICSSIM].
 
 The ICSSIM framework enables cyber threats and attacks to be investigated and mitigated by building a virtual ICS security testbed customized to suit their needs. As ICSSIM runs on separate private operating system kernels, it provides realistic network emulation and runs ICS components on Docker container technology. 
 
@@ -44,7 +44,7 @@ EXECUTION_MODE = EXECUTION_MODE_DOCKER
 Run the sample project using the prepared script 
 [init_sniff.sh](deployments/init_sniff.sh)
 ```
-cd ICSSIM/deployments
+cd attackfault_cps/deployments
 ./init_sniff.sh
 ```
 ### Check successful running
