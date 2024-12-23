@@ -15,6 +15,10 @@ An overview of the bottle filling factory network architecture is presented belo
 
 ![Network architecture for the sample bottle filling plant](Images/sample_architecture.png)
 
+# Our contributions
+To record network traffic, syslog and sensors data.
+*log-server: A container created to record syslog events from other containers connected to  'wnet' internal network.
+Need to define rules to record PLC interactions. Currently only records root level information.
 # Run a Sample Bottle Filling Factory
 
 ## Run in Docker container Environement
@@ -24,7 +28,6 @@ Make sure that you have already installed the following applications and tools.
 
 * git
 * Docker
-* Docker-Compose
 
 ### Getting ICSSIM and the sample project
 Clone The probject into your local directory using following git command.
