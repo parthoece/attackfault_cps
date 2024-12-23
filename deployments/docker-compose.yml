@@ -1,4 +1,4 @@
-version: "3.9"
+#version: "3.9"
 services:
   pys:
     build: ics-docker/.
@@ -10,6 +10,7 @@ services:
       - ../src:/src
       - "/etc/timezone:/etc/timezone:ro"
       - "/etc/localtime:/etc/localtime:ro"
+      - ./rsyslog.conf:/etc/rsyslog.conf
     networks:
       fnet:
         ipv4_address: 192.168.1.31
@@ -24,6 +25,7 @@ services:
       - ../src:/src
       - "/etc/timezone:/etc/timezone:ro"
       - "/etc/localtime:/etc/localtime:ro"
+      - ./rsyslog.conf:/etc/rsyslog.conf
     networks:
       wnet:
         ipv4_address: 192.168.0.11
@@ -43,6 +45,7 @@ services:
       - ../src:/src
       - "/etc/timezone:/etc/timezone:ro"
       - "/etc/localtime:/etc/localtime:ro"
+      - ./rsyslog.conf:/etc/rsyslog.conf
     networks:
       wnet:
         ipv4_address: 192.168.0.12
@@ -61,6 +64,7 @@ services:
       - ../src:/src
       - "/etc/timezone:/etc/timezone:ro"
       - "/etc/localtime:/etc/localtime:ro"
+      - ./rsyslog.conf:/etc/rsyslog.conf
     networks:
       wnet:
         ipv4_address: 192.168.0.21
@@ -75,6 +79,9 @@ services:
     container_name: hmi2
     volumes:
       - ../src:/src
+      - "/etc/timezone:/etc/timezone:ro"
+      - "/etc/localtime:/etc/localtime:ro"
+      - ./rsyslog.conf:/etc/rsyslog.conf
     networks:
       wnet:
         ipv4_address: 192.168.0.22
@@ -92,6 +99,7 @@ services:
       - ../src:/src
       - "/etc/timezone:/etc/timezone:ro"
       - "/etc/localtime:/etc/localtime:ro"
+      - ./rsyslog.conf:/etc/rsyslog.conf
     networks:
       wnet:
         ipv4_address: 192.168.0.23
@@ -109,6 +117,7 @@ services:
       - ../src:/src
       - "/etc/timezone:/etc/timezone:ro"
       - "/etc/localtime:/etc/localtime:ro"
+      - ./rsyslog.conf:/etc/rsyslog.conf
       
     networks:
       wnet:
@@ -126,6 +135,7 @@ services:
       - ../src:/src
       - "/etc/timezone:/etc/timezone:ro"
       - "/etc/localtime:/etc/localtime:ro"
+      - ./rsyslog.conf:/etc/rsyslog.conf
     networks:
       wnet:
         ipv4_address: 192.168.0.41
@@ -142,10 +152,29 @@ services:
       - ../src:/src
       - "/etc/timezone:/etc/timezone:ro"
       - "/etc/localtime:/etc/localtime:ro"
+      - ./rsyslog.conf:/etc/rsyslog.conf
     networks:
       wnet:
         ipv4_address: 192.168.0.43
-
+        
+  log-server:
+    #image: balabit/rsyslog
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    container_name: log-server
+    privileged: true
+    command: ["rsyslogd", "-n"]
+    volumes:
+      #- ./rsyslog:/etc/rsyslog.d
+      - ./logs:/var/log
+      - ./rsyslog/rsyslog.conf:/etc/rsyslog.conf
+    ports:
+      - "5514:514/udp"
+      - "5514:514/tcp"
+    networks:
+      wnet:
+        ipv4_address: 192.168.0.10
       
 networks:
   wnet:
@@ -166,5 +195,8 @@ networks:
          gateway: 192.168.1.1 
     driver_opts:
       com.docker.network.bridge.name: br_phynet
+    
+
+
 
 

@@ -8,10 +8,10 @@ printStep(){
 }
 
 printStep 'DOCKER_COMPOSE UP'
-sudo docker-compose up -d
+sudo docker compose up -d
 
 printStep 'DOCKER_COMPOSE UP'
-sudo docker-compose ps
+sudo docker compose ps
 
 sudo tcpdump -w traffic.pcap -i br_icsnet
 

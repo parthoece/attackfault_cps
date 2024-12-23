@@ -8,7 +8,7 @@ printStep(){
 }
 
 printStep "DOWN PREVIOUS CONTAINERS"
-sudo docker-compose down 
+sudo docker compose down 
 
 
 
