@@ -32,7 +32,7 @@ Make sure that you have already installed the following applications and tools.
 ### Getting ICSSIM and the sample project
 Clone The probject into your local directory using following git command.
 ```
-git clone https://github.com/AlirezaDehlaghi/ICSSIM ICSSIM
+git clone https://github.com/parthoece/attackfault_cps attackfault_cps
 ```
 
 check the file [Configs.py](src/Configs.py) and make sure that EXECUTION_MODE varibale is set to EXECUTION_MODE_DOCKER as follow:
@@ -42,64 +42,18 @@ EXECUTION_MODE = EXECUTION_MODE_DOCKER
 
 ### Running the sample project 
 Run the sample project using the prepared script 
-[init.sh](deployments/init.sh)
+[init_sniff.sh](deployments/init_sniff.sh)
 ```
 cd ICSSIM/deployments
-./init.sh
+./init_sniff.sh
 ```
 ### Check successful running
-If *init.sh* commands runs to the end, it will show the status of all containers. In the case that all containers are 'Up', then project is running successfully.
+If *init_sniff.sh* commands runs to the end, it will show the status of all containers. In the case that all containers are 'Up', then project is running successfully.
 You could also see the status of containers with following command:
 ```
-sudo docker-compose ps
+sudo docker compose ps
 ```
 
 ### Operating the control system and apply cyberattacks
 In the directory [deployments](deployments/) there exist some scripts such as [hmi1.sh](deployments/hmi1.sh), [hmi2.sh](deployments/hmi2.sh) or [attacker.sh](deployments/attacker.sh) which can attach user to the container.
-
-## Run in GNS3
-To run the ICSSIM and the sample Bottle Filling factory clone the prject and use the portable GNS3 file to create a new project in GNS3.
-
-### Getting ICSSIM and the sample project
-Clone The probject into your local directory using following git command.
-```
-git clone https://github.com/AlirezaDehlaghi/ICSSIM ICSSIM
-```
-
-### Import Project in GNS3
-Import the portable project ([deployments/GNS3/ICSSIM-GNS3-Portable.gns3project](deployments/GNS3/ICSSIM-GNS3-Portable.gns3project)) using menu **File->Import Portable Project**
-
-## RUN as a single Python project
-
-### Pre steps
-Make sure that you have already installed the following applications and tools. 
-
-* git
-* Python
-* pip
-
-Make sure that you installed required packages: pyModbusTCP, memcache
-```
-pip install pyModbusTCP
-pip install memcache
-
-```
-
-
-### Getting ICSSIM and the sample project
-Clone The probject into your local directory using following git command.
-```
-git clone https://github.com/AlirezaDehlaghi/ICSSIM ICSSIM
-```
-
-check the file [Configs.py](src/Configs.py) and make sure that EXECUTION_MODE varibale is set to EXECUTION_MODE_DOCKER as follow:
-```
-EXECUTION_MODE = EXECUTION_MODE_LOCAL
-```
-
-### Running the sample project 
-Run the sample project using the running start.py
-```
-cd ICSSIM/src
-python3 start.py
 ```
