@@ -17,7 +17,7 @@ An overview of the bottle filling factory network architecture is presented belo
 
 # Our contributions
 To record network traffic, syslog and sensors data.
-*log-server: A container created to record syslog events from other containers connected to  'wnet' internal network.
+* log-server: A container created to record syslog events from other containers connected to  'wnet' internal network.
 Need to define rules to record PLC interactions. Currently only records root level information.
 # Run a Sample Bottle Filling Factory
 
